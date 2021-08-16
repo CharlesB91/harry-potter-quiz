@@ -48,10 +48,10 @@
   }
 
   .btn {
-    border: none; /* Remove borders */
-    color: black; /* Add a text color */
-    padding: 14px 28px; /* Add some padding */
-    cursor: pointer; /* Add a pointer cursor on mouse-over */
+    border: none;
+    color: black;
+    padding: 14px 28px; 
+    cursor: pointer; 
     border-radius: 5%;
     background-color: grey;
     width: 200px;
@@ -70,10 +70,10 @@
   }
 
   #start-btn {
-    background-color: white;
+    background-color: whitesmoke;
     height: 200px;
     font-size: 25px;
-    width: 350px;
+    width: 400px;
     text-transform: uppercase;
   }
 
