@@ -114,6 +114,8 @@
   }
   
   .overlay-content {
+    font-size: 290%;
+    color: white;
     position: relative;
     top: 25%;
     width: 100%;
