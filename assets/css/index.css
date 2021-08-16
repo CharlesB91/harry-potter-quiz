@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Roboto&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -5,23 +8,14 @@
   }
 
   body {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 300;
-    background-image: linear-gradient(to top, #0f0f0f, #434343, #7c7c7c, #bcbcbc, #ffffff);
+    font-family: 'Roboto', sans-serif;
+    background-image: url(/assets/images/hogwarts.jpg);
     background-color: #cccccc;
-    background-position: center; 
+    background-position: bottom center;
     background-repeat: no-repeat; 
     background-size: cover;
     height: 100vh;
   }
-
-  #home {
-    text-align: center;
-    font-size: 290%;
-    padding: 20px;
-  }
-
-
   #container {
     display: flex;
     justify-content: center;
