@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Roboto&display=swap');
+
 
 * {
     margin: 0;
@@ -7,20 +7,33 @@
     border: none;
   }
 
-  body {
-    font-family: 'Roboto', sans-serif;
+  #home {
+    text-align: center;
+    background-color: gray;
+  }
+
+  h1 {
+    font-size: 100px;
+    color: goldenrod;
+  }
+
+  h2 {
+    font-size: 50px;
+    color: white;
+  }
+
+  #container {
     background-image: url(/assets/images/hogwarts.jpg);
     background-color: #cccccc;
     background-position: bottom center;
     background-repeat: no-repeat; 
     background-size: cover;
     height: 100vh;
-  }
-  #container {
     display: flex;
     justify-content: center;
     font-size: 290%;
   }
+
 
   .flex-container {
     color: white;
@@ -41,7 +54,7 @@
 
   .btn {
     border: none; /* Remove borders */
-    color: white; /* Add a text color */
+    color: black; /* Add a text color */
     padding: 14px 28px; /* Add some padding */
     cursor: pointer; /* Add a pointer cursor on mouse-over */
     border-radius: 5%;
@@ -53,7 +66,7 @@
 }
 
   .btn:hover {
-    background-color: whitesmoke;
+    background-color: goldenrod;
     color: black;
   }
 
@@ -62,10 +75,12 @@
   }
 
   #start-btn {
-    text-transform: uppercase;
     height: 200px;
     font-size: 25px;
     width: 350px;
+    position: relative;
+    top: 250px;
+    text-transform: uppercase;
   }
   
 
