@@ -31,7 +31,7 @@
     text-align: center;
     border-radius: 2%;
     width: 600px;
-    padding: 30px;
+    padding: 10px;
   }
 
   #question-placeholder {
@@ -114,7 +114,8 @@
   }
   
   .overlay-content {
-    font-size: 290%;
+    font-size: 150%;
+    text-transform: uppercase;
     color: white;
     position: relative;
     top: 25%;
@@ -150,6 +151,10 @@
     top: 15px;
     right: 35px;
     }
+  }
+
+  .wands {
+    padding: 10px;
   }
 
 
