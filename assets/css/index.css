@@ -1,6 +1,4 @@
 
-
-
 * {
     margin: 0;
     padding: 0;
@@ -9,7 +7,6 @@
 
   #home {
     text-align: center;
-    background-color: gray;
   }
 
   h1 {
@@ -19,13 +16,13 @@
 
   h2 {
     font-size: 50px;
-    color: white;
+    color: black; 
   }
 
   #container {
     background-image: url(/assets/images/hogwarts.jpg);
     background-color: #cccccc;
-    background-position: bottom center;
+    background-position: center center;
     background-repeat: no-repeat; 
     background-size: cover;
     height: 100vh;
@@ -42,10 +39,8 @@
     padding: 10px;
     width: 600px;
     height: 400px;
-  }
-
-  #question-placeholder {
-    color: black;
+    position: relative;
+    top: 100px;
   }
 
   #answer-buttons-container {
@@ -75,13 +70,27 @@
   }
 
   #start-btn {
+    background-color: white;
     height: 200px;
     font-size: 25px;
     width: 350px;
-    position: relative;
-    top: 250px;
     text-transform: uppercase;
   }
+
+  /* .hide2 {
+    display: none;
+  } */
+
+  #next-btn {
+    background-color: white;
+  }
+
+  #next-btn:hover, #start-btn:hover {
+    background-color: goldenrod;
+  }
+
+
+
   
 
 
