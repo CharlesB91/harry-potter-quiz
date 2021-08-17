@@ -41,18 +41,16 @@ let quizquestions = [
   },
 ];
 
-let startClick = document.getElementById("start-btn");
-startClick.addEventListener("click", start);
-
 let questionSelect = document.getElementById("question-placeholder");
 let buttonsSelect = document.getElementById("answer-buttons-container");
-let answers = document.querySelectorAll(".btn");
-let a = document.getElementById("a");
-let b = document.getElementById("b");
-let c = document.getElementById("c");
-let d = document.getElementById("d");
+let answerButtons = Array.from(document.getElementsByClassName("btn"));
 
-let currentQuiz = 0;
+let currentQuestion = {};
+let acceptingAnswers = true;
+let avaliableQuestions = [];
+
+let startClick = document.getElementById("start-btn");
+startClick.addEventListener("click", start);
 
 function start() {
   startClick.classList.add("hide");
@@ -60,10 +58,14 @@ function start() {
   hideInstruct.classList.add("hide");
   let questionsShow = document.getElementById("flex-container");
   questionsShow.classList.remove("hide");
-  displayQuestions(quizquestions);
+  displayQuestions();
 }
 
-function displayQuestions() {}
+function displayQuestions() {
+  let index = Math.floor(Math.random() * quizquestions.length);
+  currentQuestion = quizquestions[index];
+  questionSelect.innerText = currentQuestion.question;
+}
 
 function checkAnswer() {}
 
