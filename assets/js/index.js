@@ -1,7 +1,7 @@
-let startButton = document.getElementById("start-btn");
-startButton.addEventListener("click", startGame);
+let start = document.getElementById("start-btn");
+start.addEventListener("click", start);
 
-function startGame() {
+function start() {
   startButton.classList.add("hide");
   let hideInstruct = document.getElementById("instruct");
   hideInstruct.classList.add("hide");
@@ -10,7 +10,9 @@ function startGame() {
   displayFirstQuestion();
 }
 
-function displayFirstQuestion() {}
+function displayFirstQuestion() {
+  let first = document.getElementById("question-placeholder");
+}
 
 function NextQuestion() {}
 
