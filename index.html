@@ -15,15 +15,16 @@
     </div>
     <!-- Main Container With Questions & Buttons  -->
     <div id="container">
-      <div class="flex-container">
-        <div id="question-placeholder" class="hide">Questions To Ask</div>
-        <div id="answer-buttons-container" class="hide">
+      <div id="flex-container" class="hide">
+        <div id="question-placeholder">Questions To Ask</div>
+        <div id="answer-buttons-container">
           <button class="btn">Answer 1</button>
           <button class="btn">Answer 2</button>
           <button class="btn">Answer 3</button>
           <button class="btn">Answer 4</button>
-          <button id="next-btn" class="btn hide">Next</button>
+          <button id="next-btn" class="btn">Next</button>
         </div>
+      </div>
     <div id="front-controls">
       <button id="start-btn" class="btn">
         "i solemnly swear that i am up to no good"
@@ -31,11 +32,6 @@
       <button id="instruct" class="btn" onclick="openNav()">
         Instructions
       </button>
-    </div>
-    <!-- Score-Board -->
-    <div id="score-area">
-      <p class="correct">Correct <span>0</span></p>
-      <p class="incorrect">Incorrect <span>0</span></p>
     </div>
     <!-- Instructions Tab -->
     <div id="myNav" class="overlay">

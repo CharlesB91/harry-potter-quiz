@@ -31,7 +31,7 @@
     justify-content: center;
   }
 
-  .flex-container {
+  #flex-container {
     text-align: center;
     border-radius: 2%;
     width: 600px;
@@ -93,20 +93,6 @@
     justify-content: center;
   }
 
-  /* Score Area */
-
-  #score-area {
-    padding: 20px;
-    font-size: 150%;
-  }
-
-  .correct {
-    color: green;
-  }
-
-  .incorrect {
-    color: red;
-  }
 
   /* Instructions Tab */
 

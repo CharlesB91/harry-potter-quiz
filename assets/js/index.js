@@ -3,6 +3,11 @@ startButton.addEventListener("click", startGame);
 
 function startGame() {
   alert("Game has started");
+  startButton.classList.add("hide");
+  let hideInstruct = document.getElementById("instruct");
+  hideInstruct.classList.add("hide");
+  let questionsShow = document.getElementById("flex-container");
+  questionsShow.classList.remove("hide");
 }
 
 function NextQuestion() {}
