@@ -65,7 +65,6 @@ function start() {
 }
 
 function displayQuestions() {
-  deselectAnswers();
   let quizData = quizquestions[currentQuiz];
   questionSelect.innerText = quizData.question;
   a.innerText = quizData.a;
