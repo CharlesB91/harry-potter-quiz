@@ -29,6 +29,7 @@ const questions = [
     answer2: "Hedwig",
     answer3: "Crookshanks",
     answer4: "Snape",
+    correct: "answer3",
   },
   {
     question2: "What Is Voldemort's Real Name",
@@ -36,6 +37,7 @@ const questions = [
     answer2: "Albus Dumbledore",
     answer3: "Bellatrix Lestrange",
     answer4: "Ron Weasley",
+    correct: "answer1",
   },
   {
     question3: "What Was The Last Horcrux",
@@ -43,6 +45,7 @@ const questions = [
     answer2: "Nagini",
     answer3: "The Cup",
     answer4: "Tom Riddle's Diary",
+    correct: "answer2",
   },
   {
     question4: "Who Killed Dumbledore",
@@ -50,6 +53,7 @@ const questions = [
     answer2: "Hagrid",
     answer3: "Severus Snape",
     answer4: "Draco Malfoy",
+    correct: "answer3",
   },
   {
     question5: "What Was Harry Potter's Mums Name",
@@ -57,6 +61,7 @@ const questions = [
     answer2: "Margaret",
     answer3: "Karen",
     answer4: "Sandra",
+    correct: "answer1",
   },
 ];
 
