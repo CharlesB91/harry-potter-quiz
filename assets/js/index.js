@@ -43,7 +43,6 @@ let quizquestions = [
 
 let questionSelect = document.getElementById("question-placeholder");
 let buttonsSelect = document.getElementById("answer-buttons-container");
-let answerButtons = Array.from(document.getElementsByClassName("btn"));
 
 let currentQuestion = {};
 let acceptingAnswers = true;
