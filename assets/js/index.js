@@ -1,5 +1,47 @@
+let questions = [
+  [
+    "What Is Hermione's Cat Called?",
+    "Scabbers",
+    "Hedwig",
+    "Crookshanks",
+    "Snape",
+  ],
+  [
+    "What Is Voldemort's Real Name",
+    "Tom Riddle",
+    "Albus Dumbledore",
+    "Bellatrix Lestrange",
+    "Ron Weasley",
+  ],
+  [
+    "What Was The Last Horcrux",
+    "Harry Potter",
+    "Nagini",
+    "The Cup",
+    "Tom Riddle's Diary",
+  ],
+  [
+    "Who Killed Dumbledore",
+    "Voldermort",
+    "Hagrid",
+    "Severus Snape",
+    "Draco Malfoy",
+    "answer3",
+  ],
+  [
+    "What Was Harry Potter's Mums Name",
+    "Lilly",
+    "Margaret",
+    "Karen",
+    "Sandra",
+    "answer1",
+  ],
+];
+
 let startClick = document.getElementById("start-btn");
 startClick.addEventListener("click", start);
+let questionSelect = document.getElementById("question-placeholder");
+let buttonsSelect = document.getElementById("answer-buttons-container");
 
 function start() {
   startClick.classList.add("hide");
@@ -10,9 +52,7 @@ function start() {
   displayFirstQuestion();
 }
 
-function displayFirstQuestion() {
-  let first = document.getElementById("question-placeholder");
-}
+function displayFirstQuestion() {}
 
 function NextQuestion() {}
 
@@ -21,49 +61,6 @@ function CheckAnswers() {}
 function CheckScore() {}
 
 // questions
-
-const questions = [
-  {
-    question1: "What Is Hermione's Cat Called",
-    answer1: "Scabbers",
-    answer2: "Hedwig",
-    answer3: "Crookshanks",
-    answer4: "Snape",
-    correct: "answer3",
-  },
-  {
-    question2: "What Is Voldemort's Real Name",
-    answer1: "Tom Riddle",
-    answer2: "Albus Dumbledore",
-    answer3: "Bellatrix Lestrange",
-    answer4: "Ron Weasley",
-    correct: "answer1",
-  },
-  {
-    question3: "What Was The Last Horcrux",
-    answer1: "Harry Potter",
-    answer2: "Nagini",
-    answer3: "The Cup",
-    answer4: "Tom Riddle's Diary",
-    correct: "answer2",
-  },
-  {
-    question4: "Who Killed Dumbledore",
-    answer1: "Voldermort",
-    answer2: "Hagrid",
-    answer3: "Severus Snape",
-    answer4: "Draco Malfoy",
-    correct: "answer3",
-  },
-  {
-    question5: "What Was Harry Potter's Mums Name",
-    answer1: "Lilly",
-    answer2: "Margaret",
-    answer3: "Karen",
-    answer4: "Sandra",
-    correct: "answer1",
-  },
-];
 
 // Instructions Bar //
 
