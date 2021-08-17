@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text&display=swap');
 
+/* Home Screen & Image Properties */
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +8,7 @@
   }
 
   body {
-    font-family:'STIX Two Text', serif;;
+    font-family:'STIX Two Text', serif;
   }
 
   #home {
@@ -15,13 +16,15 @@
   }
 
   img {
-    height: 350px;
+    height: 280px;
   }
 
 
   h2 {
-    font-size: 50px; 
+    font-size: 40px; 
   }
+
+  /* Question Container With Answer Buttons & Controls */
 
   #container {
     display: flex;
@@ -68,9 +71,9 @@
 
   #start-btn {
     background-color: grey;
-    height: 200px;
-    font-size: 30px;
-    width: 400px;
+    height: 150px;
+    font-size: 100%;
+    width: 350px;
     text-transform: uppercase;
   }
 
@@ -86,9 +89,11 @@
     background-color: goldenrod;
   }
 
+  /* Score Area */
+
   #score-area {
     padding: 20px;
-    font-size: 200%;
+    font-size: 150%;
   }
 
   .correct {
@@ -99,7 +104,7 @@
     color: red;
   }
 
-
+  /* Instructions Tab */
 
   .overlay {
     height: 100%;
@@ -111,11 +116,11 @@
     background-color: rgb(0,0,0);
     background-color: rgba(0,0,0, 0.9);
     overflow-x: hidden;
-    transition: 0.5s;
+    transition: 0.3s;
   }
   
   .overlay-content {
-    font-size: 150%;
+    font-size: 120%;
     text-transform: uppercase;
     color: white;
     position: relative;
@@ -142,7 +147,7 @@
     position: absolute;
     top: 20px;
     right: 45px;
-    font-size: 60px;
+    font-size: 30px;
   }
   
   @media screen and (max-height: 450px) {
@@ -157,6 +162,44 @@
   .wands {
     padding: 10px;
   }
+
+  #instruct {
+    font-size: 100%;
+  }
+
+
+  /* Responsive Styles */
+
+  @media screen and (max-width: 600px) {
+    img {
+      width: 320px;
+      height: 250px;
+    }
+
+    #start-btn {
+      width: 200px;
+      height: 100px;
+      padding: 0;
+      font-size: 80%;
+    }
+
+    #instruct {
+      font-size: 80%;
+    }
+
+    #score-area {
+      padding: 20px;
+      font-size: 100%;
+    }
+
+    .overlay-content {
+      font-size: 100%;
+    }
+
+
+
+  }
+  
 
 
 
