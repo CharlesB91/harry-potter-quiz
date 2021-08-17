@@ -5,6 +5,7 @@ let questions = [
     b: "Hedwig",
     c: "Crookshanks",
     d: "Snape",
+    correct: "c",
   },
   {
     question: "What Is Voldemort's Real Name",
@@ -12,6 +13,7 @@ let questions = [
     b: "Albus Dumbledore",
     c: "Bellatrix Lestrange",
     d: "Ron Weasley",
+    correct: "a",
   },
   {
     question: "What Was The Last Horcrux",
@@ -19,6 +21,7 @@ let questions = [
     b: "Nagini",
     c: "The Cup",
     d: "Tom Riddle's Diary",
+    correct: "b",
   },
   {
     question: "Who Killed Dumbledore",
@@ -26,6 +29,7 @@ let questions = [
     b: "Hagrid",
     c: "Severus Snape",
     d: "Draco Malfoy",
+    correct: "c",
   },
   {
     question: "What Was Harry Potter's Mums Name",
@@ -33,6 +37,7 @@ let questions = [
     b: "Margaret",
     c: "Karen",
     d: "Sandra",
+    correct: "a",
   },
 ];
 
@@ -41,6 +46,10 @@ startClick.addEventListener("click", start);
 let questionSelect = document.getElementById("question-placeholder");
 let buttonsSelect = document.getElementById("answer-buttons-container");
 let resetButton = document.getElementById("rest-btn");
+let a = document.getElementById("a");
+let b = document.getElementById("b");
+let c = document.getElementById("c");
+let d = document.getElementById("d");
 
 function start() {
   startClick.classList.add("hide");
