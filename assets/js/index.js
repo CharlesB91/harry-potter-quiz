@@ -1,4 +1,9 @@
-function startGame() {}
+let startButton = document.getElementById("start-btn");
+startButton.addEventListener("click", startGame);
+
+function startGame() {
+  alert("Game has started");
+}
 
 function NextQuestion() {}
 
