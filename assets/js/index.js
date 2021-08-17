@@ -1,48 +1,49 @@
 let quizquestions = [
   {
     question: "What Is Hermione's Cat Called?",
-    a: "Scabbers",
-    b: "Hedwig",
-    c: "Crookshanks",
-    d: "Snape",
+    choice1: "Scabbers",
+    choice2: "Hedwig",
+    choice3: "Crookshanks",
+    choice4: "Snape",
     correct: "c",
   },
   {
     question: "What Is Voldemort's Real Name",
-    a: "Tom Riddle",
-    b: "Albus Dumbledore",
-    c: "Bellatrix Lestrange",
-    d: "Ron Weasley",
+    choice1: "Tom Riddle",
+    choice2: "Albus Dumbledore",
+    choice3: "Bellatrix Lestrange",
+    choice4: "Ron Weasley",
     correct: "a",
   },
   {
     question: "What Was The Last Horcrux",
-    a: "Harry Potter",
-    b: "Nagini",
-    c: "The Cup",
-    d: "Tom Riddle's Diary",
+    choice1: "Harry Potter",
+    choice2: "Nagini",
+    choice3: "The Cup",
+    choice4: "Tom Riddle's Diary",
     correct: "b",
   },
   {
     question: "Who Killed Dumbledore",
-    a: "Voldermort",
-    b: "Hagrid",
-    c: "Severus Snape",
-    d: "Draco Malfoy",
+    choice1: "Voldermort",
+    choice2: "Hagrid",
+    choice3: "Severus Snape",
+    choice4: "Draco Malfoy",
     correct: "c",
   },
   {
     question: "What Was Harry Potter's Mums Name",
-    a: "Lilly",
-    b: "Margaret",
-    c: "Karen",
-    d: "Sandra",
+    choice1: "Lilly",
+    choice2: "Margaret",
+    choice3: "Karen",
+    choice4: "Sandra",
     correct: "a",
   },
 ];
 
 let questionSelect = document.getElementById("question-placeholder");
 let buttonsSelect = document.getElementById("answer-buttons-container");
+const choices = Array.from(document.getElementsByClassName("choice-text"));
 
 let currentQuestion = {};
 let acceptingAnswers = true;
@@ -64,6 +65,11 @@ function displayQuestions() {
   let index = Math.floor(Math.random() * quizquestions.length);
   currentQuestion = quizquestions[index];
   questionSelect.innerText = currentQuestion.question;
+
+  choices.forEach((choice) => {
+    const number = choice.dataset["number"];
+    choice.innerText = currentQuestion["choice" + number];
+  });
 }
 
 function checkAnswer() {}
