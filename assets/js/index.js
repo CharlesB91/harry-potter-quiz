@@ -46,14 +46,13 @@ startClick.addEventListener("click", start);
 
 let questionSelect = document.getElementById("question-placeholder");
 let buttonsSelect = document.getElementById("answer-buttons-container");
-let resetButton = document.getElementById("rest-btn");
+let answers = document.querySelectorAll(".btn");
 let a = document.getElementById("a");
 let b = document.getElementById("b");
 let c = document.getElementById("c");
 let d = document.getElementById("d");
 
 let currentQuiz = 0;
-let score = 0;
 
 function start() {
   startClick.classList.add("hide");
@@ -61,21 +60,14 @@ function start() {
   hideInstruct.classList.add("hide");
   let questionsShow = document.getElementById("flex-container");
   questionsShow.classList.remove("hide");
-  displayQuestions();
+  displayQuestions(quizquestions);
 }
 
-function displayQuestions() {
-  let quizData = quizquestions[currentQuiz];
-  questionSelect.innerText = quizData.question;
-  a.innerText = quizData.a;
-  b.innerText = quizData.b;
-  c.innerText = quizData.c;
-  d.innerText = quizData.d;
-}
+function displayQuestions() {}
 
-function CheckAnswers() {}
+function checkAnswer() {}
 
-function CheckScore() {}
+function checkScore() {}
 
 // questions
 
