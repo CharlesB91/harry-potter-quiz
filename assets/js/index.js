@@ -43,6 +43,7 @@ let questions = [
 
 let startClick = document.getElementById("start-btn");
 startClick.addEventListener("click", start);
+
 let questionSelect = document.getElementById("question-placeholder");
 let buttonsSelect = document.getElementById("answer-buttons-container");
 let resetButton = document.getElementById("rest-btn");
@@ -51,18 +52,19 @@ let b = document.getElementById("b");
 let c = document.getElementById("c");
 let d = document.getElementById("d");
 
+let currentQuiz = 0;
+let score = 0;
+
 function start() {
   startClick.classList.add("hide");
   let hideInstruct = document.getElementById("instruct");
   hideInstruct.classList.add("hide");
   let questionsShow = document.getElementById("flex-container");
   questionsShow.classList.remove("hide");
-  displayFirstQuestion();
+  displayQuestions();
 }
 
-function displayFirstQuestion() {}
-
-function NextQuestion() {}
+function displayQuestions() {}
 
 function CheckAnswers() {}
 
