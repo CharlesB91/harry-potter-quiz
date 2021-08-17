@@ -1,4 +1,4 @@
-let questions = [
+let quizquestions = [
   {
     question: "What Is Hermione's Cat Called?",
     a: "Scabbers",
@@ -64,7 +64,15 @@ function start() {
   displayQuestions();
 }
 
-function displayQuestions() {}
+function displayQuestions() {
+  deselectAnswers();
+  let quizData = quizquestions[currentQuiz];
+  questionSelect.innerText = quizData.question;
+  a.innerText = quizData.a;
+  b.innerText = quizData.b;
+  c.innerText = quizData.c;
+  d.innerText = quizData.d;
+}
 
 function CheckAnswers() {}
 
