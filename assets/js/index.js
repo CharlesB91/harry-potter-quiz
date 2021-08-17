@@ -1,3 +1,11 @@
+function startGame() {}
+
+function NextQuestion() {}
+
+function CheckAnswers() {}
+
+function CheckScore() {}
+
 // Instructions Bar //
 
 function openNav() {
