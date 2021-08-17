@@ -2,7 +2,7 @@ let start = document.getElementById("start-btn");
 start.addEventListener("click", start);
 
 function start() {
-  startButton.classList.add("hide");
+  start.classList.add("hide");
   let hideInstruct = document.getElementById("instruct");
   hideInstruct.classList.add("hide");
   let questionsShow = document.getElementById("flex-container");
