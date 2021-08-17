@@ -109,6 +109,14 @@
     justify-content: center;
   }
 
+  .correct:focus {
+    background-color: green;
+  }
+
+  .incorrect:focus {
+    background-color: red;
+  }
+
 
   /* Instructions Tab */
 
