@@ -22,9 +22,25 @@
 
   h2 {
     font-size: 40px; 
+    padding: 10px;
   }
 
   /* Question Container With Answer Buttons & Controls */
+
+  /* Score-Board */
+
+  #score-board {
+    padding: 20px;
+    font-size: 150%;
+  }
+
+  #right {
+    color: green;
+  }
+
+  #wrong {
+    color: red;
+  }
 
   #container {
     display: flex;
@@ -160,11 +176,6 @@
     img {
       width: 320px;
       height: 250px;
-    }
-
-    #score-area {
-      padding: 20px;
-      font-size: 120%;
     }
 
     .overlay-content {
