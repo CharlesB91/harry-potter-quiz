@@ -1,47 +1,46 @@
 let questions = [
-  [
-    "What Is Hermione's Cat Called?",
-    "Scabbers",
-    "Hedwig",
-    "Crookshanks",
-    "Snape",
-  ],
-  [
-    "What Is Voldemort's Real Name",
-    "Tom Riddle",
-    "Albus Dumbledore",
-    "Bellatrix Lestrange",
-    "Ron Weasley",
-  ],
-  [
-    "What Was The Last Horcrux",
-    "Harry Potter",
-    "Nagini",
-    "The Cup",
-    "Tom Riddle's Diary",
-  ],
-  [
-    "Who Killed Dumbledore",
-    "Voldermort",
-    "Hagrid",
-    "Severus Snape",
-    "Draco Malfoy",
-    "answer3",
-  ],
-  [
-    "What Was Harry Potter's Mums Name",
-    "Lilly",
-    "Margaret",
-    "Karen",
-    "Sandra",
-    "answer1",
-  ],
+  {
+    question: "What Is Hermione's Cat Called?",
+    a: "Scabbers",
+    b: "Hedwig",
+    c: "Crookshanks",
+    d: "Snape",
+  },
+  {
+    question: "What Is Voldemort's Real Name",
+    a: "Tom Riddle",
+    b: "Albus Dumbledore",
+    c: "Bellatrix Lestrange",
+    d: "Ron Weasley",
+  },
+  {
+    question: "What Was The Last Horcrux",
+    a: "Harry Potter",
+    b: "Nagini",
+    c: "The Cup",
+    d: "Tom Riddle's Diary",
+  },
+  {
+    question: "Who Killed Dumbledore",
+    a: "Voldermort",
+    b: "Hagrid",
+    c: "Severus Snape",
+    d: "Draco Malfoy",
+  },
+  {
+    question: "What Was Harry Potter's Mums Name",
+    a: "Lilly",
+    b: "Margaret",
+    c: "Karen",
+    d: "Sandra",
+  },
 ];
 
 let startClick = document.getElementById("start-btn");
 startClick.addEventListener("click", start);
 let questionSelect = document.getElementById("question-placeholder");
 let buttonsSelect = document.getElementById("answer-buttons-container");
+let resetButton = document.getElementById("rest-btn");
 
 function start() {
   startClick.classList.add("hide");
