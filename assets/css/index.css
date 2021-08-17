@@ -71,10 +71,17 @@
 
   #start-btn {
     background-color: grey;
-    height: 150px;
+    height: 80px;
     font-size: 100%;
-    width: 350px;
+    width: 250px;
     text-transform: uppercase;
+  }
+
+  #instruct {  
+    text-transform: uppercase;
+    height: 80px;
+    font-size: 100%;
+    width: 250px;
   }
 
   /* .hide2 {
@@ -87,6 +94,11 @@
 
   #next-btn:hover, #start-btn:hover {
     background-color: goldenrod;
+  }
+
+  #front-controls {
+    display: flex;
+    justify-content: center;
   }
 
   /* Score Area */
@@ -163,10 +175,6 @@
     padding: 10px;
   }
 
-  #instruct {
-    font-size: 100%;
-  }
-
 
   /* Responsive Styles */
 
@@ -176,17 +184,6 @@
       height: 250px;
     }
 
-    #start-btn {
-      width: 200px;
-      height: 100px;
-      padding: 5px;
-      font-size: 80%;
-    }
-
-    #instruct {
-      font-size: 80%;
-    }
-
     #score-area {
       padding: 20px;
       font-size: 100%;
@@ -194,6 +191,11 @@
 
     .overlay-content {
       font-size: 100%;
+    }
+
+    #front-controls {
+      display: flex;
+      flex-wrap: wrap;
     }
 
 
