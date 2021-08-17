@@ -1,8 +1,8 @@
-let start = document.getElementById("start-btn");
-start.addEventListener("click", start);
+let startClick = document.getElementById("start-btn");
+startClick.addEventListener("click", start);
 
 function start() {
-  start.classList.add("hide");
+  startClick.classList.add("hide");
   let hideInstruct = document.getElementById("instruct");
   hideInstruct.classList.add("hide");
   let questionsShow = document.getElementById("flex-container");
