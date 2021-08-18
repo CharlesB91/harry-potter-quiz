@@ -107,7 +107,6 @@ function start() {
 
 function displayQuestions() {
   if (questionCounter == 5) {
-    alert("Game Over");
     return window.location.assign("gameover.html");
   }
   questionCounter++;
@@ -135,10 +134,8 @@ answers.forEach((answer) => {
 function checkAnswer() {
   if (selectedAnswer == currentQuestion.correct) {
     CorrectAnswer();
-    alert("Correct");
   } else {
     WrongAnswer();
-    alert("Opps");
   }
   displayQuestions();
 }
@@ -152,8 +149,6 @@ function WrongAnswer() {
   let oldScore = parseInt(document.getElementById("incorrect").innerText);
   document.getElementById("incorrect").innerText = ++oldScore;
 }
-
-playAgain.addEventListener("click", start);
 
 // Instructions Bar //
 
