@@ -15,7 +15,7 @@
     text-align: center;
   }
 
-  
+
   #home img {
     height: 280px;
   }
@@ -170,8 +170,25 @@
 
   /* Game Over Page */
 
+  #center img {
+    height: 500px;
+    width: 600px;
+  }
+
   #center {
     padding: 50px;
+    text-align: center;
+  }
+
+  #sorting-hat-greeting {
+    font-size: 400%;
+  }
+
+  #sorting-hat-text {
+    font-size: 180%;
+  }
+
+  #play-again-area {
     text-align: center;
   }
 
