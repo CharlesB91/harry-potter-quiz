@@ -192,6 +192,12 @@
     text-align: center;
   }
 
+  #play-again-area a {
+    font-size: 35px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
 
   /* Responsive Styles */
 

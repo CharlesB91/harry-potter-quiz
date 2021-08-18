@@ -84,6 +84,7 @@ let quizquestions = [
 let questionSelect = document.getElementById("question-placeholder");
 let buttonsSelect = document.getElementById("answer-buttons-container");
 let answers = Array.from(document.getElementsByClassName("choice-text"));
+let playAgain = document.getElementById("play-again");
 
 let currentQuestion = {};
 let acceptingAnswers = false;
@@ -151,6 +152,8 @@ function WrongAnswer() {
   let oldScore = parseInt(document.getElementById("incorrect").innerText);
   document.getElementById("incorrect").innerText = ++oldScore;
 }
+
+playAgain.addEventListener("click", start);
 
 // Instructions Bar //
 
