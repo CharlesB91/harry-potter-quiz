@@ -5,7 +5,7 @@ let quizquestions = [
     choice2: "Hedwig",
     choice3: "Crookshanks",
     choice4: "Snape",
-    correct: "",
+    correct: 3,
   },
   {
     question: "What Is Voldemort's Real Name?",
@@ -13,7 +13,7 @@ let quizquestions = [
     choice2: "Albus Dumbledore",
     choice3: "Bellatrix Lestrange",
     choice4: "Ron Weasley",
-    correct: "",
+    correct: 1,
   },
   {
     question: "What Was The Last Horcrux?",
@@ -21,7 +21,7 @@ let quizquestions = [
     choice2: "Nagini",
     choice3: "The Cup",
     choice4: "Tom Riddle's Diary",
-    correct: "",
+    correct: 2,
   },
   {
     question: "Who Killed Dumbledore?",
@@ -29,15 +29,15 @@ let quizquestions = [
     choice2: "Hagrid",
     choice3: "Severus Snape",
     choice4: "Draco Malfoy",
-    correct: "",
+    correct: 3,
   },
   {
     question: "Who is Dracos dad?",
-    choice1: "Professor McGonagall",
+    choice1: "McGonagall",
     choice2: "Lucius Malfoy",
     choice3: "Barty Crouch",
     choice4: "Gaspar Avery",
-    correct: "",
+    correct: 2,
   },
   {
     question: "What Was Harry Potter's Mums Name",
@@ -45,7 +45,7 @@ let quizquestions = [
     choice2: "Margaret",
     choice3: "Karen",
     choice4: "Sandra",
-    correct: "",
+    correct: 1,
   },
   {
     question: "Who did Ron Weasley's pet rat used to belong to?",
@@ -53,7 +53,7 @@ let quizquestions = [
     choice2: "Voldemort",
     choice3: "Percy Weasley",
     choice4: "Hagrid",
-    correct: "",
+    correct: 1,
   },
   {
     question: "What was Hagrid's pet dog called?",
@@ -61,7 +61,7 @@ let quizquestions = [
     choice2: "Scabbers",
     choice3: "Hegwig",
     choice4: "Buckbeak ",
-    correct: "",
+    correct: 1,
   },
   {
     question: "Who killed Dobby by throwing a knife at him?",
@@ -69,25 +69,27 @@ let quizquestions = [
     choice2: "Griphook",
     choice3: "Bellatrix Lestrange",
     choice4: "Lucius Malfoy",
-    correct: "",
+    correct: 3,
   },
   {
-    question: "What position did Harry Potter play at Quidditch?",
+    question: "What was Harry’s Patronus?",
     choice1: "Cat",
     choice2: "Stag",
     choice3: "Fox",
     choice4: "Dove",
-    correct: "",
+    correct: 2,
   },
 ];
 
 let questionSelect = document.getElementById("question-placeholder");
 let buttonsSelect = document.getElementById("answer-buttons-container");
-const choices = Array.from(document.getElementsByClassName("choice-text"));
+let answers = Array.from(document.getElementsByClassName("choice-text"));
+const MaxQuestions = 5;
 
 let currentQuestion = {};
 let acceptingAnswers = false;
 let avaliableQuestions = [];
+let questionCounter = 0;
 
 let startClick = document.getElementById("start-btn");
 startClick.addEventListener("click", start);
@@ -98,36 +100,45 @@ function start() {
   hideInstruct.classList.add("hide");
   let questionsShow = document.getElementById("flex-container");
   questionsShow.classList.remove("hide");
+  questionCounter = 0;
+  avaliableQuestions = [...quizquestions];
   displayQuestions();
 }
 
 function displayQuestions() {
-  let index = Math.floor(Math.random() * quizquestions.length);
-  currentQuestion = quizquestions[index];
+  questionCounter++;
+  let index = Math.floor(Math.random() * avaliableQuestions.length);
+  currentQuestion = avaliableQuestions[index];
   questionSelect.innerText = currentQuestion.question;
 
-  choices.forEach((choice) => {
-    const number = choice.dataset["number"];
-    choice.innerText = currentQuestion["choice" + number];
+  answers.forEach((answer) => {
+    const number = answer.dataset["number"];
+    answer.innerText = currentQuestion["choice" + number];
   });
-  avaliableQuestions.splice(quizquestions, 1);
 
+  avaliableQuestions.splice(index, 1);
   acceptingAnswers = true;
 }
 
-choices.forEach((choice) => {
-  choice.addEventListener("click", (e) => {
+answers.forEach((answer) => {
+  answer.addEventListener("click", (e) => {
     if (!acceptingAnswers) return;
 
     acceptingAnswers = false;
     let selectedChoice = e.target;
-    let selectedAnswer = selectedChoice.dataset["number"];
-    console.log(selectedAnswer);
-    displayQuestions();
+    selectedAnswer = selectedChoice.dataset["number"];
+    checkAnswer();
   });
 });
 
-function checkAnswer() {}
+function checkAnswer() {
+  if (selectedAnswer == currentQuestion.correct) {
+    alert("Hey You Got it Right");
+  } else {
+    alert("Opps");
+  }
+  displayQuestions();
+}
 
 function checkScore() {}
 
