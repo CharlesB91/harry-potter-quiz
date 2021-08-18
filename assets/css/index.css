@@ -32,7 +32,7 @@
   /* Score-Board */
 
   #score-board {
-    padding: 20px;
+    padding: 10px;
     font-size: 150%;
   }
 
@@ -84,21 +84,19 @@
   }
 
   #start-btn {
+    font-weight: bold;
     height: 80px;
     width: 250px;
     text-transform: uppercase;
   }
 
-  #instruct {  
+  #instruct {
+    padding-top:10px;
+    cursor: pointer; 
     text-transform: uppercase;
-    height: 80px;
-    width: 250px;
+    font-size: 80%
+    /* width: 150px; */
   }
-  #front-controls {
-    display: flex;
-    justify-content: center;
-  }
-
   .correct:focus {
     background-color: green;
   }
