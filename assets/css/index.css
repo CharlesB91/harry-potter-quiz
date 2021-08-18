@@ -98,6 +98,7 @@
   }
 
   #instruct {
+
     border: solid black;
     cursor: pointer; 
     font-size: 120%;
@@ -211,7 +212,7 @@
     }
 
     #center img {
-      height: 300px;
+      height: 280px;
       width: 300px;
       
     }
