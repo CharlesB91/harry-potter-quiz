@@ -31,19 +31,21 @@
 
   /* Score-Board */
 
+  #score-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px
+  }
+
   #score-board {
+    text-align: center;
     padding: 10px;
     font-size: 150%;
+    width: 180px;
+    height: 60px;
+    border: black solid;
+    background-color: goldenrod;
   }
-
-  #right {
-    color: green;
-  }
-
-  #wrong {
-    color: red;
-  }
-
   #container {
     display: flex;
     justify-content: center;
@@ -62,7 +64,7 @@
   }
 
   .btn {
-    border: none;
+    border: solid black;
     color: black;
     padding: 14px 28px; 
     cursor: pointer; 
@@ -96,13 +98,6 @@
     text-transform: uppercase;
     font-size: 80%
     /* width: 150px; */
-  }
-  .correct:focus {
-    background-color: green;
-  }
-
-  .incorrect:focus {
-    background-color: red;
   }
 
   /* Instructions Tab */
