@@ -85,6 +85,7 @@ let questionSelect = document.getElementById("question-placeholder");
 let buttonsSelect = document.getElementById("answer-buttons-container");
 let answers = Array.from(document.getElementsByClassName("choice-text"));
 let playAgain = document.getElementById("play-again");
+let image = document.getElementById("hp-logo");
 
 let currentQuestion = {};
 let acceptingAnswers = false;
@@ -95,6 +96,7 @@ let startClick = document.getElementById("start-btn");
 startClick.addEventListener("click", start);
 
 function start() {
+  image.classList.add("hide");
   startClick.classList.add("hide");
   let hideInstruct = document.getElementById("instruct");
   hideInstruct.classList.add("hide");

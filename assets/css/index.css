@@ -69,9 +69,9 @@
     border-radius: 5%;
     background-color:goldenrod;
     width: 200px;
-    height: 50px;
+    height: 70px;
     margin: 20px;
-    font-size: 110%;
+    font-size: 100%;
 }
 
   .btn:hover {
@@ -201,8 +201,8 @@
   /* Responsive Styles */
 
   @media screen and (max-width: 600px) {
-    img {
-      width: 320px;
+    #home img {
+      width: 350px;
       height: 250px;
     }
 
