@@ -53,7 +53,7 @@ let quizquestions = [
     choice2: "Voldemort",
     choice3: "Percy Weasley",
     choice4: "Hagrid",
-    correct: 1,
+    correct: 3,
   },
   {
     question: "What was Hagrid's pet dog called?",
