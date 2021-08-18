@@ -46,7 +46,7 @@ let buttonsSelect = document.getElementById("answer-buttons-container");
 const choices = Array.from(document.getElementsByClassName("choice-text"));
 
 let currentQuestion = {};
-let acceptingAnswers = true;
+let acceptingAnswers = false;
 let avaliableQuestions = [];
 
 let startClick = document.getElementById("start-btn");
@@ -70,7 +70,22 @@ function displayQuestions() {
     const number = choice.dataset["number"];
     choice.innerText = currentQuestion["choice" + number];
   });
+  avaliableQuestions.splice(quizquestions, 1);
+
+  acceptingAnswers = true;
 }
+
+choices.forEach((choice) => {
+  choice.addEventListener("click", (e) => {
+    if (!acceptingAnswers) return;
+
+    acceptingAnswers = false;
+    let selectedChoice = e.target;
+    let selectedAnswer = selectedChoice.dataset["number"];
+    console.log(selectedAnswer);
+    displayQuestions();
+  });
+});
 
 function checkAnswer() {}
 
