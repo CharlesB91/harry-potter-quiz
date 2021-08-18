@@ -105,9 +105,9 @@ function start() {
 }
 
 function displayQuestions() {
-  if (questionCounter == 4) {
+  if (questionCounter == 5) {
     alert("Game Over");
-    return window.location.assign("index.html");
+    return window.location.assign("gameover.html");
   }
   questionCounter++;
   let index = Math.floor(Math.random() * avaliableQuestions.length);
@@ -125,9 +125,6 @@ function displayQuestions() {
 
 answers.forEach((answer) => {
   answer.addEventListener("click", (e) => {
-    // if (!acceptingAnswers) return;
-
-    // acceptingAnswers = false;
     selectedChoice = e.target;
     selectedAnswer = selectedChoice.dataset["number"];
     checkAnswer();

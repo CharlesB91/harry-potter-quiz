@@ -15,7 +15,8 @@
     text-align: center;
   }
 
-  img {
+  
+  #home img {
     height: 280px;
   }
 
@@ -165,6 +166,13 @@
 
   .wands {
     padding: 10px;
+  }
+
+  /* Game Over Page */
+
+  #center {
+    padding: 50px;
+    text-align: center;
   }
 
 
