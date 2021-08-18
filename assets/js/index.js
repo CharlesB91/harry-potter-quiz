@@ -136,14 +136,24 @@ answers.forEach((answer) => {
 
 function checkAnswer() {
   if (selectedAnswer == currentQuestion.correct) {
+    CorrectAnswer();
     alert("Correct");
   } else {
+    WrongAnswer();
     alert("Opps");
   }
   displayQuestions();
 }
 
-function checkScore() {}
+function CorrectAnswer() {
+  let oldScore = parseInt(document.getElementById("correct").innerText);
+  document.getElementById("correct").innerText = ++oldScore;
+}
+
+function WrongAnswer() {
+  let oldScore = parseInt(document.getElementById("incorrect").innerText);
+  document.getElementById("incorrect").innerText = ++oldScore;
+}
 
 // Instructions Bar //
 
