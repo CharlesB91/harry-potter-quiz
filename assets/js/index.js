@@ -106,6 +106,7 @@ function start() {
 
 function displayQuestions() {
   if (questionCounter == 4) {
+    alert("Game Over");
     return window.location.assign("index.html");
   }
   questionCounter++;
@@ -124,9 +125,9 @@ function displayQuestions() {
 
 answers.forEach((answer) => {
   answer.addEventListener("click", (e) => {
-    if (!acceptingAnswers) return;
+    // if (!acceptingAnswers) return;
 
-    acceptingAnswers = false;
+    // acceptingAnswers = false;
     selectedChoice = e.target;
     selectedAnswer = selectedChoice.dataset["number"];
     checkAnswer();
@@ -143,8 +144,6 @@ function checkAnswer() {
 }
 
 function checkScore() {}
-
-// questions
 
 // Instructions Bar //
 
