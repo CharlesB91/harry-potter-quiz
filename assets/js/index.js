@@ -84,7 +84,6 @@ let quizquestions = [
 let questionSelect = document.getElementById("question-placeholder");
 let buttonsSelect = document.getElementById("answer-buttons-container");
 let answers = Array.from(document.getElementsByClassName("choice-text"));
-const MaxQuestions = 5;
 
 let currentQuestion = {};
 let acceptingAnswers = false;
@@ -106,6 +105,9 @@ function start() {
 }
 
 function displayQuestions() {
+  if (questionCounter == 4) {
+    return window.location.assign("index.html");
+  }
   questionCounter++;
   let index = Math.floor(Math.random() * avaliableQuestions.length);
   currentQuestion = avaliableQuestions[index];
@@ -125,7 +127,7 @@ answers.forEach((answer) => {
     if (!acceptingAnswers) return;
 
     acceptingAnswers = false;
-    let selectedChoice = e.target;
+    selectedChoice = e.target;
     selectedAnswer = selectedChoice.dataset["number"];
     checkAnswer();
   });
@@ -133,7 +135,7 @@ answers.forEach((answer) => {
 
 function checkAnswer() {
   if (selectedAnswer == currentQuestion.correct) {
-    alert("Hey You Got it Right");
+    alert("Correct");
   } else {
     alert("Opps");
   }
