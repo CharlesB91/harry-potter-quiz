@@ -66,7 +66,6 @@
   .btn {
     border: solid black;
     color: black;
-    padding: 14px 28px; 
     cursor: pointer; 
     border-radius: 5%;
     background-color:goldenrod;
@@ -189,6 +188,7 @@
   }
 
   #play-again-area a {
+    padding: 20px;
     text-decoration: none;
     text-transform: uppercase;
   }
