@@ -8,7 +8,7 @@
   }
 
   body {
-    font-family:'STIX Two Text', serif;
+    font-family: 'STIX Two Text', serif;
   }
 
   #home {
@@ -64,6 +64,8 @@
   }
 
   .btn {
+    font-weight: bold;
+    font-family: 'STIX Two Text', serif;
     border: solid black;
     color: black;
     cursor: pointer; 
