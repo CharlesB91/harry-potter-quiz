@@ -137,11 +137,17 @@ answers.forEach((answer) => {
 
 function checkAnswer() {
   if (selectedAnswer == currentQuestion.correct) {
+    selectedChoice.classList.add("correct");
     CorrectAnswer();
   } else {
+    selectedChoice.classList.add("incorrect");
     WrongAnswer();
   }
-  displayQuestions();
+  setTimeout(function () {
+    selectedChoice.classList.remove("correct");
+    selectedChoice.classList.remove("incorrect");
+    displayQuestions();
+  }, 1000);
 }
 
 function CorrectAnswer() {

@@ -103,6 +103,14 @@
     font-size: 120%;
   }
 
+  .correct {
+    background-color: green;
+  }
+
+  .incorrect {
+    background-color: red;
+  }
+
   /* Instructions Tab */
 
   .overlay {
