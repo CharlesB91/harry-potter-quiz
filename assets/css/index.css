@@ -177,8 +177,9 @@
   /* Game Over Page */
 
   #center img {
-    height: 500px;
-    width: 600px;
+    padding: 10px;
+    height: 400px;
+    width: 500px;
   }
 
   #center {
@@ -209,6 +210,14 @@
     text-transform: uppercase;
   }
 
+  #ceremony {
+    text-decoration: underline solid black;
+    border: black solid;
+    background-color: goldenrod;
+    font-size: 200%;
+    padding: 10px;
+    text-align: center;
+  }
 
   /* Responsive Styles */
 
