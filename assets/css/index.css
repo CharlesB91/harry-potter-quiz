@@ -104,11 +104,11 @@
   }
 
   .correct {
-    background-color: green;
+    background-color: green !important;
   }
 
   .incorrect {
-    background-color: red;
+    background-color: red !important;
   }
 
   /* Instructions Tab */
