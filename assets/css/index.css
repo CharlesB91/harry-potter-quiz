@@ -127,7 +127,7 @@
   }
   
   .overlay-content {
-    font-size: 120%;
+    font-size: 170%;
     text-transform: uppercase;
     color: white;
     position: relative;
@@ -167,6 +167,7 @@
   }
 
   .wands {
+    text-decoration: underline solid;
     padding: 10px;
   }
 
