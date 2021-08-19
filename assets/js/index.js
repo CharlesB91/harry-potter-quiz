@@ -91,7 +91,7 @@ let hideInstruct = document.getElementById("instruct");
 let questionsShow = document.getElementById("flex-container");
 
 let currentQuestion = {};
-let acceptingAnswers = false;
+// let acceptingAnswers = false;
 let avaliableQuestions = [];
 let questionCounter = 0;
 
@@ -124,7 +124,7 @@ function displayQuestions() {
   });
 
   avaliableQuestions.splice(index, 1);
-  acceptingAnswers = true;
+  // acceptingAnswers = true;
 }
 
 answers.forEach((answer) => {
@@ -153,6 +153,7 @@ function checkAnswer() {
 function CorrectAnswer() {
   let oldScore = parseInt(document.getElementById("correct").innerText);
   document.getElementById("correct").innerText = ++oldScore;
+  localStorage.setItem("most-recent-score", oldScore);
 }
 
 function WrongAnswer() {
