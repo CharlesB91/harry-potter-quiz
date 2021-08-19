@@ -190,18 +190,22 @@
     font-size: 400%;
   }
 
-  #sorting-hat-text {
+  #center p {
     font-size: 180%;
   }
 
   #play-again-area {
-    padding: 20px;
+    padding: 30px;
     text-align: center;
   }
 
   #play-again-area a {
     padding: 20px;
     text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  #sorting-hat-greeting, #house-sort {
     text-transform: uppercase;
   }
 
