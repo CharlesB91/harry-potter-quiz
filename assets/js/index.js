@@ -123,7 +123,6 @@ function displayQuestions() {
   });
 
   avaliableQuestions.splice(index, 1);
-  // acceptingAnswers = true;
 }
 
 answers.forEach((answer) => {
