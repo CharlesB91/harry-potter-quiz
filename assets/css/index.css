@@ -9,9 +9,11 @@
 
   body {
     font-family: 'STIX Two Text', serif;
+    width: 100%;
   }
 
   #home {
+    padding: 50px;
     text-align: center;
   }
 
@@ -19,31 +21,12 @@
   #home img {
     height: 280px;
     width: 600px;
-    animation-name: image-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
   }
-
-
 
   h2 {
     font-size: 40px; 
-    padding: 30px;
-    animation-name: image-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
   }
 
-  @keyframes image-zoom {
-    from {
-        transform: scale(1);
-
-    }
-    to {
-transform: scale(1.7);
-    }
-
-}
 
 /* splash screen */
 
@@ -73,6 +56,7 @@ transform: scale(1.7);
   color: white;
   text-align: center;
   line-height: 90vh;
+  transition: all 0.8s;
 
 }
 
@@ -84,7 +68,7 @@ opacity: 3;
 }
 
 .fade-in {
-  opacity: -4;
+  opacity: 0;
   animation: fadeIn 3s ease-in forwards;
 
 }
