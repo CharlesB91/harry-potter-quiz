@@ -10,11 +10,17 @@
   body {
     font-family: 'STIX Two Text', serif;
     width: 100%;
+    background-image: url("../images/hogwarts-2.jpg");
+    background-color: #cccccc; 
+    height: 100vh; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
   }
 
   #home {
     /* padding: 50px; */
-    text-align: center;
+    text-align: center; 
   }
 
 
