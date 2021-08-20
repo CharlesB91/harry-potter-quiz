@@ -225,6 +225,7 @@ transform: scale(1.7);
   }
 
   #sorting-hat-greeting, #house-sort {
+    font-size: 280%;
     text-transform: uppercase;
   }
 

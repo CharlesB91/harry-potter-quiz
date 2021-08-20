@@ -18,3 +18,5 @@ function scoresOnDoors() {
     houseScore.innerText = "Down to the dungeons in slytherin";
   }
 }
+
+localStorage.clear();
