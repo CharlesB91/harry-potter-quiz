@@ -45,6 +45,50 @@ transform: scale(1.7);
 
 }
 
+/* splash screen */
+
+.splash {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  z-index: 200;
+  color: white;
+  text-align: center;
+  line-height: 90vh;
+
+}
+
+.splash.display-none {
+  position: fixed;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  z-index: -10;
+  color: white;
+  text-align: center;
+  line-height: 90vh;
+
+}
+
+@keyframes fadeIn {
+  to {
+opacity: 3;
+  }
+
+}
+
+.fade-in {
+  opacity: -4;
+  animation: fadeIn 3s ease-in forwards;
+
+}
+
   /* Question Container With Answer Buttons & Controls */
 
   /* Score-Board */
