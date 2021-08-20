@@ -226,12 +226,11 @@ transform: scale(1.3);
   }
 
   #ceremony {
+    width: 100%;
     text-transform: uppercase;
     text-decoration: underline solid black;
-    border: black solid;
     background-color: goldenrod;
     font-size: 200%;
-    padding: 10px;
     text-align: center;
   }
 
