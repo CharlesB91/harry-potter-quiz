@@ -19,8 +19,8 @@
 
 
   #home img {
-    height: 40%;
-    width: 50%;
+    height: 35%;
+    width: 35%;
     animation-name: home-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -86,7 +86,6 @@ opacity: 3;
 
 .fade-in {
   padding: 20px;
-  font-size: 200%;
   opacity: 0;
   animation: fadeIn 3s ease-in forwards;
 
@@ -316,5 +315,6 @@ opacity: 3;
     #sorting-hat-text {
       font-size: 120%;
     }
+
 
   }
