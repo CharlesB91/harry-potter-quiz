@@ -45,9 +45,6 @@ transform: scale(1.7);
 
 }
 
-
-
-
   /* Question Container With Answer Buttons & Controls */
 
   /* Score-Board */
@@ -238,6 +235,7 @@ transform: scale(1.7);
     background-color: goldenrod;
     font-size: 200%;
     text-align: center;
+    
   }
 
   /* Responsive Styles */
