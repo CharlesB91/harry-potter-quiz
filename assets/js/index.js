@@ -91,7 +91,6 @@ let hideInstruct = document.getElementById("instruct");
 let questionsShow = document.getElementById("flex-container");
 
 let currentQuestion = {};
-// let acceptingAnswers = false;
 let avaliableQuestions = [];
 let questionCounter = 0;
 
@@ -151,14 +150,14 @@ function checkAnswer() {
 }
 
 function CorrectAnswer() {
-  let oldScore = parseInt(document.getElementById("correct").innerText);
-  document.getElementById("correct").innerText = ++oldScore;
-  localStorage.setItem("most-recent-score", oldScore);
+  let correctScore = parseInt(document.getElementById("correct").innerText);
+  document.getElementById("correct").innerText = ++correctScore;
+  localStorage.setItem("most-recent-score", correctScore);
 }
 
 function WrongAnswer() {
-  let oldScore = parseInt(document.getElementById("incorrect").innerText);
-  document.getElementById("incorrect").innerText = ++oldScore;
+  let incorrectScore = parseInt(document.getElementById("incorrect").innerText);
+  document.getElementById("incorrect").innerText = ++incorrectScore;
 }
 
 // Instructions Bar //
