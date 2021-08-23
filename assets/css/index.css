@@ -262,19 +262,9 @@ opacity: 3;
     text-transform: uppercase;
   }
 
-  #ceremony {
-    width: 100%;
-    text-transform: uppercase;
-    text-decoration: underline solid black;
-    background-color: goldenrod;
-    text-align: center;
-    font-size: 200%;
-    
-  }
-
   #results {
     position: relative;
-    bottom: 150px;
+    bottom: 50px;
     text-transform: uppercase;
     color: black;
     background-color: goldenrod;
@@ -282,8 +272,10 @@ opacity: 3;
   }
 
   .house-badge {
-    width: 100px;
-    height: 100px;
+    margin-bottom: 50px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
   }
 
   .hide2 {
