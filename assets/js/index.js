@@ -116,7 +116,7 @@ startClick.addEventListener("click", start);
 // Question & Answer Buttons Appear
 
 function start() {
-  home.classList.add("hide");
+  homeScreen.classList.add("hide");
   startClick.classList.add("hide");
   hideInstruct.classList.add("hide");
   questionsShow.classList.remove("hide");

@@ -286,21 +286,18 @@ opacity: 3;
     height: 100px;
   }
 
-  #slytherin {
+  .hide2 {
     display: none;
   }
-
-  #gryffindor {
+  .hide3 {
     display: none;
   }
-
-  #ravenclaw {
+  .hide4 {
     display: none;
   }
-
-  #huggle-puff {
+  .hide5 {
     display: none;
-  } 
+  }
 
   /* Responsive Styles */
 
