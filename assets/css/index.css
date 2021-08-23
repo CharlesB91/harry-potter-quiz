@@ -294,11 +294,6 @@ opacity: 3;
   /* Responsive Styles */
 
   @media screen and (max-width: 900px) {
-
-    #ceremony {
-      font-size: 150%;
-    }
-
     #results {
       font-size: 120%;
     }
@@ -339,14 +334,14 @@ opacity: 3;
     #start-btn {
       height: 100px;
       width: 200px;
-      font-size: 90%;
+      font-size: 100%;
       padding: 10px;
     }
 
     #instruct {
       height: 70px;
       width: 200px;
-      font-size: 90%;
+      font-size: 100%;
     }
 
     #results {
