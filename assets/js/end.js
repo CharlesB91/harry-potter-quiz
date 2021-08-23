@@ -1,12 +1,13 @@
 // Global DOM Selectors //
 
-let mostRecentScore = localStorage.getItem("most-recent-score");
+let mostRecentScore = parseInt(localStorage.getItem("most-recent-score"));
 let scoreAlert = document.getElementById("sorting-hat-greeting");
 let houseScore = document.getElementById("house-sort");
 let gryff = document.getElementById("gryffindor");
 let huffle = document.getElementById("hufflepuff");
 let raven = document.getElementById("ravenclaw");
 let slyth = document.getElementById("slytherin");
+
 scoresOnDoors();
 
 // Sorting Function. Depending on
@@ -14,6 +15,10 @@ scoresOnDoors();
 // according to their score
 
 function scoresOnDoors() {
+  if (isNaN(mostRecentScore)) {
+    mostRecentScore = 0;
+  }
+
   scoreAlert.innerText = `You Scored ${mostRecentScore} out of 5`;
 
   if (mostRecentScore == 5) {
