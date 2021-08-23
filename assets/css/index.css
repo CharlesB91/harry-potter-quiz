@@ -348,15 +348,29 @@ opacity: 3;
     }
 
     .overlay-content {
-      font-size: 80%;
-    }
-
-    .btn {
-      height: 50px;
+      font-size: 100%;
     }
 
     .house-badge {
       width: 200px;
       height: 200px;
     }
+
+    .btn {
+      height: 50px;
+    }
   }
+
+  @media screen and (max-width: 400px){
+    #score-board {
+      padding: 0;
+      font-size: 100%;
+      width: 180px;
+      height: 40px;
+    }
+
+    .btn {
+      height: 30px;
+    }
+  }
+
