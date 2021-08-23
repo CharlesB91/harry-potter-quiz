@@ -252,7 +252,7 @@ opacity: 3;
     background-size: cover;
     height: 100vh;
     width: 100vw;
-    padding-top: 400px;
+    padding-top: 200px;
     text-align: center;
   }
 
@@ -322,14 +322,6 @@ opacity: 3;
       
     }
 
-    #sorting-hat-greeting {
-      font-size: 200%;
-    }
-  
-    #sorting-hat-text {
-      font-size: 120%;
-    }
-
     #start-btn {
       height: 100px;
       width: 200px;
@@ -341,6 +333,14 @@ opacity: 3;
       height: 70px;
       width: 200px;
       font-size: 90%;
+    }
+
+    #results {
+      font-size: 80%;
+    }
+
+    #ceremony {
+      font-size: 100%;
     }
 
 
