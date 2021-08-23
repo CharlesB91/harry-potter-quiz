@@ -305,10 +305,6 @@ opacity: 3;
       padding: 20px;
     }
 
-    .btn {
-      height: 70px;
-    }
-
     #hp-logo {
       width: 80%;
     }
@@ -366,15 +362,8 @@ opacity: 3;
       font-size: 80%;
     }
 
-  }
-
-  @media screen and (max-width: 400px) {
-    #score-board {
-      padding: 0;
-    }
-
     .btn {
-      height: 35px;
+      height: 50px;
     }
 
   }
