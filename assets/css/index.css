@@ -309,11 +309,6 @@ opacity: 3;
       width: 80%;
     }
 
-    .house-badge {
-      width: 200px;
-      height: 200px;
-    }
-
   }
 
   @media screen and (max-width: 600px) {
@@ -325,12 +320,6 @@ opacity: 3;
     #front-controls {
       display: flex;
       flex-wrap: wrap;
-    }
-
-    #center img {
-      height: 280px;
-      width: 300px;
-      
     }
 
     #start-btn {
@@ -366,4 +355,8 @@ opacity: 3;
       height: 50px;
     }
 
+    .house-badge {
+      width: 200px;
+      height: 200px;
+    }
   }
