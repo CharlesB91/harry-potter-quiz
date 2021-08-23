@@ -155,7 +155,8 @@ opacity: 3;
   }
 
   #start-btn {
-    padding-top: 20px;
+    text-align: center;
+    padding: 20px;
     font-size: 150%;
     height: 120px;
     width: 400px;
@@ -243,12 +244,6 @@ opacity: 3;
 
   /* Game Over Page */
 
-  #center img {
-    padding: 10px;
-    height: 400px;
-    width: 500px;
-  }
-
   #center {
     color: white;
     background-image: url(../images/grand-hall.jpg);
@@ -284,10 +279,31 @@ opacity: 3;
     color: black;
     background-color: goldenrod;
     font-size: 150%;
-    /* padding: 20px; */
   }
 
   /* Responsive Styles */
+
+  @media screen and (max-width: 900px) {
+
+    #ceremony {
+      font-size: 150%;
+    }
+
+    #results {
+      font-size: 120%;
+    }
+
+    #start-btn, #instruct {
+      width: 300px;
+      font-size: 120%;
+      padding: 20px;
+    }
+
+    .btn {
+      height: 70px;
+    }
+
+  }
 
   @media screen and (max-width: 600px) {
 
@@ -312,6 +328,19 @@ opacity: 3;
   
     #sorting-hat-text {
       font-size: 120%;
+    }
+
+    #start-btn {
+      height: 100px;
+      width: 200px;
+      font-size: 90%;
+      padding: 10px
+    }
+
+    #instruct {
+      height: 70px;
+      width: 200px;
+      font-size: 90%;
     }
 
 
