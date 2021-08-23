@@ -151,6 +151,11 @@ opacity: 3;
     color: black;
   }
 
+  .btn:focus {
+    outline: none;
+    box-shadow: none;
+  }
+
   .hide {
     display: none;
   }
