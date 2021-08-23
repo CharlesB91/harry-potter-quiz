@@ -23,7 +23,7 @@ function scoresOnDoors() {
 
   if (mostRecentScore == 5) {
     gryff.classList.remove("hide2");
-    houseScore.innerText = "Better Be gryffindor";
+    houseScore.innerText = "Welcome To gryffindor";
   } else if (mostRecentScore < 5 && mostRecentScore > 3) {
     huffle.classList.remove("hide3");
     houseScore.innerText = "Welcome To Hufflepuff";
