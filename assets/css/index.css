@@ -263,6 +263,7 @@ opacity: 3;
   }
 
   #play-again-area a {
+    font-size: 120%;
     padding: 20px;
     text-decoration: none;
     text-transform: uppercase;
