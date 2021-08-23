@@ -358,10 +358,6 @@ opacity: 3;
       padding: 90px 0;
     }
 
-    .btn {
-      height: 35px;
-    }
-
     .fade-in {
       font-size: 150%;
     }
@@ -370,8 +366,15 @@ opacity: 3;
       font-size: 80%;
     }
 
+  }
+
+  @media screen and (max-width: 400px) {
     #score-board {
       padding: 0;
+    }
+
+    .btn {
+      height: 35px;
     }
 
   }
