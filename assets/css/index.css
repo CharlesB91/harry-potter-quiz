@@ -273,7 +273,7 @@ opacity: 3;
   }
 
   .house-badge {
-    margin-bottom: 50px;
+    margin-bottom: 25px;
     width: 300px;
     height: 300px;
     border-radius: 50%;
@@ -359,7 +359,7 @@ opacity: 3;
     }
 
     .btn {
-      height: 50px;
+      height: 35px;
     }
 
     .fade-in {
@@ -370,5 +370,8 @@ opacity: 3;
       font-size: 80%;
     }
 
+    #score-board {
+      padding: 0;
+    }
 
   }
