@@ -110,10 +110,10 @@ opacity: 3;
     padding: 10px;
     font-size: 150%;
     width: 180px;
-    height: 60px;
     border: black solid;
     background-color: goldenrod;
   }
+
   #container {
     display: flex;
     justify-content: center;
@@ -122,12 +122,15 @@ opacity: 3;
 
   #flex-container {
     text-align: center;
-    border-radius: 2%;
     width: 600px;
     padding: 10px;
   }
 
   #question-placeholder {
+    
+    text-transform: uppercase;
+    border: black solid ;
+    background-color: gray;
     color: black;
     font-size: 150%;
   }
@@ -366,8 +369,18 @@ opacity: 3;
     }
 
     .btn {
-      height: 50px;
+      height: 60px;
     }
+  }
+
+  @media screen and (max-width: 350px) {
+  .btn {
+      height: 30px;
+     }
+
+     #question-placeholder {
+       font-size: 100%;
+     }
   }
   
 
