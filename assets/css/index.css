@@ -62,7 +62,7 @@ transform: scale(1.1);
   z-index: 200;
   color: white;
   text-align: center;
-  line-height: 90vh;
+  padding: 150px 0;
 
 }
 
@@ -77,7 +77,7 @@ transform: scale(1.1);
   z-index: -10;
   color: white;
   text-align: center;
-  line-height: 90vh;
+  padding: 150px 0;
   transition: all 0.8s;
 
 }
@@ -90,9 +90,11 @@ opacity: 3;
 }
 
 .fade-in {
+  text-transform: uppercase;
   padding: 20px;
   opacity: 0;
   animation: fadeIn 3s ease-in forwards;
+  font-size: 200%;
 
 }
 
