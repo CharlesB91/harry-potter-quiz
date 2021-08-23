@@ -313,6 +313,11 @@ opacity: 3;
       width: 80%;
     }
 
+    .house-badge {
+      width: 200px;
+      height: 200px;
+    }
+
   }
 
   @media screen and (max-width: 600px) {
@@ -349,10 +354,6 @@ opacity: 3;
       font-size: 80%;
     }
 
-    #ceremony {
-      font-size: 80%;
-    }
-
     .splash, .splash.display-none {
       padding: 90px 0;
     }
@@ -367,11 +368,6 @@ opacity: 3;
 
     .overlay-content {
       font-size: 80%;
-    }
-
-    .house-badge {
-      width: 100px;
-      height: 100px;
     }
 
 
