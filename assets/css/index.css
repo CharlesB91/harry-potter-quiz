@@ -281,6 +281,27 @@ opacity: 3;
     font-size: 150%;
   }
 
+  .house-badge {
+    width: 100px;
+    height: 100px;
+  }
+
+  #slytherin {
+    display: none;
+  }
+
+  #gryffindor {
+    display: none;
+  }
+
+  #ravenclaw {
+    display: none;
+  }
+
+  #huggle-puff {
+    display: none;
+  } 
+
   /* Responsive Styles */
 
   @media screen and (max-width: 900px) {
