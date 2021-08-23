@@ -41,9 +41,10 @@ transform: scale(1.1);
     font-size: 40px; 
   }
 
-  img {
-    width: 55%;
+  #hp-logo {
+    width: 40%;
   }
+
 
 
 /* splash screen */
@@ -308,8 +309,8 @@ opacity: 3;
       height: 70px;
     }
 
-    img {
-      width: 90%;
+    #hp-logo {
+      width: 80%;
     }
 
   }
@@ -369,8 +370,8 @@ opacity: 3;
     }
 
     .house-badge {
-      width: 200px;
-      height: 200px;
+      width: 100px;
+      height: 100px;
     }
 
 
