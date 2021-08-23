@@ -1,4 +1,4 @@
-// fade in home screen
+// fade in home screen //
 
 let splash = document.querySelector(".splash");
 
@@ -7,6 +7,8 @@ document.addEventListener("DOMContentLoaded", (e) => {
     splash.classList.add("display-none");
   }, 5000);
 });
+
+// Question Pool //
 
 let quizquestions = [
   {
@@ -91,6 +93,8 @@ let quizquestions = [
   },
 ];
 
+// Global Selectors - DOM //
+
 let questionSelect = document.getElementById("question-placeholder");
 let buttonsSelect = document.getElementById("answer-buttons-container");
 let answers = Array.from(document.getElementsByClassName("choice-text"));
@@ -107,6 +111,10 @@ let questionCounter = 0;
 let startClick = document.getElementById("start-btn");
 startClick.addEventListener("click", start);
 
+// Start Function
+// Removes HP image along with buttons
+// Question & Answer Buttons Appear
+
 function start() {
   home.classList.add("hide");
   startClick.classList.add("hide");
@@ -117,6 +125,10 @@ function start() {
   avaliableQuestions = [...quizquestions];
   displayQuestions();
 }
+
+// Display Questions Function
+// Random Question Chosen from Pool &
+// Questions & Answer Populated in DOM
 
 function displayQuestions() {
   if (questionCounter == 5) {
@@ -143,6 +155,10 @@ answers.forEach((answer) => {
   });
 });
 
+// Check Answer Function
+// Will check if selected Answer is correct.
+// Button will change colour accordingly
+
 function checkAnswer() {
   if (selectedAnswer == currentQuestion.correct) {
     selectedChoice.classList.add("correct");
@@ -158,11 +174,17 @@ function checkAnswer() {
   }, 1000);
 }
 
+// Score Board Function - If Question
+// is answered correct this will increment by 1
+
 function CorrectAnswer() {
   let correctScore = parseInt(document.getElementById("correct").innerText);
   document.getElementById("correct").innerText = ++correctScore;
   localStorage.setItem("most-recent-score", correctScore);
 }
+
+// Score Board Function - If Question
+// is answered incorrect this will increment by 1
 
 function WrongAnswer() {
   let incorrectScore = parseInt(document.getElementById("incorrect").innerText);
