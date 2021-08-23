@@ -14,11 +14,10 @@
   #body2 {
     width: 100%;
     height: 100vh;
-    background-image: url("../images/hogwarts-2.jpg");
-    background-color: #cccccc; 
+    background-image: url("../images/hogwarts-2.jpg"); 
     background-position: center; 
     background-repeat: no-repeat; 
-    background-size: cover; 
+    background-size: cover;
   }
 
   #home {
@@ -44,9 +43,8 @@ transform: scale(1.1);
     font-size: 40px; 
   }
 
-  #home img {
-    width: 700px;
-    
+  img {
+    width: 50%;
   }
 
 
@@ -295,10 +293,6 @@ opacity: 3;
   /* Responsive Styles */
 
   @media screen and (max-width: 600px) {
-    #home img {
-      width: 350px;
-      height: 250px;
-    }
 
     .overlay-content {
       font-size: 100%;
