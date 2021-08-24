@@ -115,7 +115,7 @@ opacity: 3;
     width: 120px;
     height: 70px;
     border: black solid;
-    background-color: blue;
+    /* background-color: ; */
     margin: 10px;
     text-decoration: none;
   }
@@ -137,7 +137,7 @@ opacity: 3;
     font-weight: bold;
     text-transform: uppercase;
     border: black solid ;
-    background-color: blue;
+    /* background-color: blue; */
     color: black;
     font-size: 200%;
   }
@@ -149,7 +149,7 @@ opacity: 3;
     color: black;
     cursor: pointer; 
     border-radius: 5%;
-    background-color:blue;
+    /* background-color:blue; */
     width: 250px;
     height: 150px;
     margin: 20px;
@@ -165,7 +165,7 @@ opacity: 3;
     color: black;
     cursor: pointer; 
     border-radius: 5%;
-    background-color: blue;
+    /* background-color: blue; */
     width: 200px;
     height: 90px;
     margin: 20px;
@@ -315,7 +315,7 @@ opacity: 3;
     bottom: 50px;
     text-transform: uppercase;
     color: black;
-    background-color: blue;
+    /* background-color: blue; */
     font-size: 150%;
   }
 
