@@ -291,7 +291,7 @@ opacity: 3;
 
   /* Game Over Page */
 
-  #center {
+  /* #center {
     color: white;
     background-image: url(../images/grand-hall.jpg);
     background-position: center center;
@@ -301,7 +301,7 @@ opacity: 3;
     width: 100vw;
     padding-top: 100px;
     text-align: center;
-  }
+  } */
 
   #play-again-area a {
     font-size: 200%;
