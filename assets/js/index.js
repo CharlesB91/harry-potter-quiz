@@ -8,6 +8,28 @@ document.addEventListener("DOMContentLoaded", (e) => {
   }, 5000);
 });
 
+// Instruction Box //
+
+let modal = document.getElementById("myModal");
+
+let btn = document.getElementById("instruct");
+
+let span = document.getElementsByClassName("close")[0];
+
+btn.onclick = function () {
+  modal.style.display = "block";
+};
+
+span.onclick = function () {
+  modal.style.display = "none";
+};
+
+window.onclick = function (event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+};
+
 // Question Pool //
 
 let quizquestions = [
@@ -95,14 +117,6 @@ let quizquestions = [
 
 // Global Selectors - DOM //
 
-// Get the modal
-let modal = document.getElementById("myModal");
-
-// Get the button that opens the modal
-let btn = document.getElementById("myBtn");
-
-// Get the <span> element that closes the modal
-let span = document.getElementsByClassName("close")[0];
 let questionSelect = document.getElementById("question-placeholder");
 let answers = Array.from(document.getElementsByClassName("choice-text"));
 let homeScreen = document.getElementById("home");
@@ -116,22 +130,6 @@ let counterText = document.getElementById("questionCounter");
 let currentQuestion = {};
 let avaliableQuestions = [];
 let questionCounter = 0;
-
-btn.onclick = function () {
-  modal.style.display = "block";
-};
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function () {
-  modal.style.display = "none";
-};
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function (event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-};
 
 let startClick = document.getElementById("start-btn");
 startClick.addEventListener("click", start);
@@ -216,14 +214,4 @@ function CorrectAnswer() {
 function WrongAnswer() {
   let incorrectScore = parseInt(document.getElementById("incorrect").innerText);
   document.getElementById("incorrect").innerText = ++incorrectScore;
-}
-
-// Instructions Bar /
-
-function openNav() {
-  nav.style.width = "100%";
-}
-
-function closeNav() {
-  nav.style.width = "0%";
 }
