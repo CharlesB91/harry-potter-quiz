@@ -11,14 +11,14 @@
     font-family: 'STIX Two Text', serif;
   }
 
-  /* #body2 {
+#body2 {
     background-image: url("../images/hogwarts-2.jpg"); 
     background-position: center;
     background-repeat: no-repeat; 
     background-size: cover;
     width: 100%;
     height: 100vh;
-  } */
+  }
 
   #home {
     text-align: center; 
@@ -114,7 +114,7 @@ opacity: 3;
     width: 120px;
     height: 70px;
     border: black solid;
-    background-color: gray;
+    background-color: goldenrod;
     margin: 10px;
     text-decoration: none;
   }
@@ -135,7 +135,7 @@ opacity: 3;
   #question-placeholder {
     text-transform: uppercase;
     border: black solid ;
-    background-color: gray;
+    background-color: goldenrod;
     color: black;
     font-size: 150%;
   }
@@ -147,7 +147,7 @@ opacity: 3;
     color: black;
     cursor: pointer; 
     border-radius: 5%;
-    background-color: gray;
+    background-color: goldenrod;
     width: 200px;
     height: 90px;
     margin: 20px;
@@ -163,7 +163,7 @@ opacity: 3;
     color: black;
     cursor: pointer; 
     border-radius: 5%;
-    background-color: gray;
+    background-color:goldenrod;
     width: 200px;
     height: 90px;
     margin: 20px;
@@ -175,7 +175,7 @@ opacity: 3;
 }
 
 .btn2:hover {
-  background-color: gray;
+  background-color: white;
 }
 
 #reset {
@@ -195,7 +195,7 @@ opacity: 3;
   }
 
   #start-btn:hover {
-    background-color: gray;
+    background-color: white;
   }
 
   #instruct-tab {
@@ -204,7 +204,7 @@ opacity: 3;
   }
 
   #instruct:hover {
-    background-color: gray;
+    background-color: white;
   }
 
   #instruct {
