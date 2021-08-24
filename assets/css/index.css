@@ -101,7 +101,8 @@ opacity: 3;
 
   #score-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
     padding: 20px;
   }
 

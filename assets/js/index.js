@@ -104,6 +104,7 @@ let scoreBoard = document.getElementById("score-board");
 let hideInstruct = document.getElementById("instruct");
 let questionsShow = document.getElementById("flex-container");
 let reset = document.getElementById("reset");
+let counterText = document.getElementById("questionCounter");
 
 let currentQuestion = {};
 let avaliableQuestions = [];
@@ -137,6 +138,7 @@ function displayQuestions() {
     return window.location.assign("gameover.html");
   }
   questionCounter++;
+  counterText.innerText = `${questionCounter}/5`;
   let index = Math.floor(Math.random() * avaliableQuestions.length);
   currentQuestion = avaliableQuestions[index];
   questionSelect.innerText = currentQuestion.question;
