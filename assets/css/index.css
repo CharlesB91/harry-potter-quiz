@@ -98,7 +98,7 @@ opacity: 3;
   #score-board, #hud-item  {
     text-align: center;
     padding: 20px;
-    font-size: 120%;
+    font-size: 130%;
     width: 120px;
     height: 70px;
     border: black solid;
@@ -125,7 +125,7 @@ opacity: 3;
     border: black solid ;
     background-color: goldenrod;
     color: black;
-    font-size: 150%;
+    font-size: 130%;
   }
 
   .btn {
