@@ -11,7 +11,7 @@
     font-family: 'STIX Two Text', serif;
   }
 
-#body2 {
+  #body2 {
     background-image: url("../images/hogwarts-2.jpg"); 
     background-position: center;
     background-repeat: no-repeat; 
@@ -38,7 +38,7 @@ transform: scale(1.1);
 
   h2 {
     padding-top: 20px;
-    font-size: 300%; 
+    font-size: 40px; 
   }
 
   #hp-logo {
@@ -108,14 +108,13 @@ opacity: 3;
 
 
   #score-board, #hud-item  {
-    font-weight: bold;
     text-align: center;
     padding: 20px;
-    font-size: 150%;
+    font-size: 120%;
     width: 120px;
     height: 70px;
     border: black solid;
-    background-color: blue;
+    background-color: goldenrod;
     margin: 10px;
     text-decoration: none;
   }
@@ -134,12 +133,11 @@ opacity: 3;
   }
 
   #question-placeholder {
-    font-weight: bold;
     text-transform: uppercase;
     border: black solid ;
-    background-color: blue;
+    background-color: gray;
     color: black;
-    font-size: 200%;
+    font-size: 150%;
   }
 
   .btn {
@@ -149,12 +147,12 @@ opacity: 3;
     color: black;
     cursor: pointer; 
     border-radius: 5%;
-    background-color:blue;
-    width: 250px;
-    height: 150px;
+    background-color:goldenrod;
+    width: 200px;
+    height: 90px;
     margin: 20px;
-    font-size: 150%;  
-    text-transform: uppercase;  
+    font-size: 100%;
+    text-transform: uppercase;
     
 }
 
@@ -165,11 +163,11 @@ opacity: 3;
     color: black;
     cursor: pointer; 
     border-radius: 5%;
-    background-color: blue;
+    background-color: gray;
     width: 200px;
     height: 90px;
     margin: 20px;
-    font-size: 150%;
+    font-size: 100%;
     text-transform: uppercase;
     padding: 20px;
     text-decoration: none;
@@ -177,7 +175,7 @@ opacity: 3;
 }
 
 .btn2:hover {
-  background-color: white;
+  background-color: goldenrod;
 }
 
 #reset {
@@ -197,7 +195,7 @@ opacity: 3;
   }
 
   #start-btn:hover {
-    background-color: white;
+    background-color: gray;
   }
 
   #instruct-tab {
@@ -206,14 +204,13 @@ opacity: 3;
   }
 
   #instruct:hover {
-    background-color: white;
+    background-color: gray;
   }
 
   #instruct {
-    height: 100px;
     border: solid black;
     cursor: pointer; 
-    font-size: 150%; 
+    font-size: 120%;
   }
 
   .correct {
@@ -229,9 +226,9 @@ opacity: 3;
   }
 
 
-   Instructions Tab
+  /* Instructions Tab */
 
-  /* .overlay {
+  .overlay {
     height: 100%;
     width: 0;
     position: fixed;
@@ -287,24 +284,24 @@ opacity: 3;
   .wands {
     text-decoration: underline solid;
     padding: 10px;
-  } */
+  }
 
   /* Game Over Page */
 
-   #center {
+  #center {
     color: white;
     background-image: url(../images/grand-hall.jpg);
     background-position: center center;
     background-repeat: no-repeat; 
     background-size: cover;
     height: 100vh;
-    width: 100vw; 
+    width: 100vw;
     padding-top: 100px;
     text-align: center;
-  } 
+  }
 
   #play-again-area a {
-    font-size: 200%;
+    font-size: 120%;
     padding: 20px;
     text-decoration: none;
     text-transform: uppercase;
@@ -315,7 +312,7 @@ opacity: 3;
     bottom: 50px;
     text-transform: uppercase;
     color: black;
-    background-color: blue;
+    background-color: goldenrod;
     font-size: 150%;
   }
 
@@ -340,7 +337,7 @@ opacity: 3;
   }
 
   #play-again:hover {
-    background-color: white;
+    background-color: gray;
   }
 
   /* Responsive Styles */
@@ -421,4 +418,3 @@ opacity: 3;
        font-size: 100%;
      }
   }
-  
