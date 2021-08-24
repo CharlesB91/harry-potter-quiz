@@ -95,10 +95,9 @@ let quizquestions = [
 
 // Global Selectors - DOM //
 
+let nav = document.getElementById("myNav");
 let questionSelect = document.getElementById("question-placeholder");
-let buttonsSelect = document.getElementById("answer-buttons-container");
 let answers = Array.from(document.getElementsByClassName("choice-text"));
-let playAgain = document.getElementById("play-again");
 let homeScreen = document.getElementById("home");
 let scoreBoard = document.getElementById("score-board");
 let hideInstruct = document.getElementById("instruct");
@@ -153,32 +152,31 @@ function displayQuestions() {
   avaliableQuestions.splice(index, 1);
 }
 
-answers.forEach((answer) => {
-  answer.addEventListener("click", (e) => {
-    selectedChoice = e.target;
-    selectedAnswer = selectedChoice.dataset["number"];
-    checkAnswer();
-  });
-});
-
 // Check Answer Function
 // Will check if selected Answer is correct.
 // Button will change colour accordingly
 
-function checkAnswer() {
-  if (selectedAnswer == currentQuestion.correct) {
-    selectedChoice.classList.add("correct");
-    CorrectAnswer();
-  } else {
-    selectedChoice.classList.add("incorrect");
-    WrongAnswer();
-  }
-  setTimeout(function () {
-    selectedChoice.classList.remove("correct");
-    selectedChoice.classList.remove("incorrect");
-    displayQuestions();
-  }, 1000);
-}
+answers.forEach((answer) => {
+  answer.addEventListener("click", (e) => {
+    let selectedChoice = e.target;
+    let selectedAnswer = selectedChoice.dataset["number"];
+    checkAnswer();
+    function checkAnswer() {
+      if (selectedAnswer == currentQuestion.correct) {
+        selectedChoice.classList.add("correct");
+        CorrectAnswer();
+      } else {
+        selectedChoice.classList.add("incorrect");
+        WrongAnswer();
+      }
+      setTimeout(function () {
+        selectedChoice.classList.remove("correct");
+        selectedChoice.classList.remove("incorrect");
+        displayQuestions();
+      }, 1000);
+    }
+  });
+});
 
 // Score Board Function - If Question
 // is answered correct this will increment by 1
@@ -197,12 +195,12 @@ function WrongAnswer() {
   document.getElementById("incorrect").innerText = ++incorrectScore;
 }
 
-// Instructions Bar //
+// Instructions Bar /
 
 function openNav() {
-  document.getElementById("myNav").style.width = "100%";
+  nav.style.width = "100%";
 }
 
 function closeNav() {
-  document.getElementById("myNav").style.width = "0%";
+  nav.style.width = "0%";
 }
