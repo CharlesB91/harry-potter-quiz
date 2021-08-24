@@ -108,6 +108,7 @@ opacity: 3;
 
 
   #score-board, #hud-item  {
+    font-weight: bold;
     text-align: center;
     padding: 20px;
     font-size: 150%;
