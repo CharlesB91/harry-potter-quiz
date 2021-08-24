@@ -103,6 +103,7 @@ let homeScreen = document.getElementById("home");
 let scoreBoard = document.getElementById("score-board");
 let hideInstruct = document.getElementById("instruct");
 let questionsShow = document.getElementById("flex-container");
+let reset = document.getElementById("reset");
 
 let currentQuestion = {};
 let avaliableQuestions = [];
@@ -121,6 +122,7 @@ function start() {
   hideInstruct.classList.add("hide");
   questionsShow.classList.remove("hide");
   scoreBoard.classList.remove("hide");
+  reset.classList.remove("hide");
   questionCounter = 0;
   avaliableQuestions = [...quizquestions];
   displayQuestions();
