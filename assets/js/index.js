@@ -104,6 +104,7 @@ let scoreBoard = document.getElementById("score-board");
 let hideInstruct = document.getElementById("instruct");
 let questionsShow = document.getElementById("flex-container");
 let reset = document.getElementById("reset");
+let counterBoard = document.getElementById("hud-item");
 let counterText = document.getElementById("questionCounter");
 
 let currentQuestion = {};
@@ -124,6 +125,7 @@ function start() {
   questionsShow.classList.remove("hide");
   scoreBoard.classList.remove("hide");
   reset.classList.remove("hide");
+  counterBoard.classList.remove("hide");
   questionCounter = 0;
   avaliableQuestions = [...quizquestions];
   displayQuestions();

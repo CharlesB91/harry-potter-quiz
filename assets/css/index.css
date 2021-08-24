@@ -101,7 +101,7 @@ opacity: 3;
 
   #score-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     text-align: center;
     padding: 20px;
   }
@@ -110,8 +110,9 @@ opacity: 3;
   #score-board, #hud-item  {
     text-align: center;
     padding: 20px;
-    font-size: 150%;
-    width: 150px;
+    font-size: 120%;
+    width: 120px;
+    height: 70px;
     border: black solid;
     background-color: goldenrod;
     margin: 10px;
