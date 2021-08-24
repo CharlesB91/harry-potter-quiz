@@ -102,17 +102,25 @@ opacity: 3;
   #score-container {
     display: flex;
     justify-content: center;
-    padding: 20px
+    padding: 20px;
   }
 
-  #score-board {
+
+  #score-board, #reset-button {
     text-align: center;
     padding: 10px;
     font-size: 150%;
-    width: 180px;
+    width: 150px;
     border: black solid;
     background-color: goldenrod;
+    margin: 10px;
+    text-decoration: none;
+  }  
+
+  #reset-button {
+    padding: 20px;
   }
+
 
   #container {
     display: flex;
@@ -147,6 +155,22 @@ opacity: 3;
     margin: 20px;
     font-size: 100%;
     text-transform: uppercase;
+    
+}
+
+.btn2 {
+  font-weight: bold;
+  font-family: 'STIX Two Text', serif;
+  color: black;
+  cursor: pointer; 
+  border-radius: 5%;
+  background-color:goldenrod;
+  width: 200px;
+  height: 90px;
+  margin: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  
 }
 
   .hide {
