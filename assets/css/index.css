@@ -342,19 +342,6 @@ opacity: 3;
       flex-wrap: wrap;
     }
 
-    #start-btn {
-      height: 100px;
-      width: 200px;
-      font-size: 100%;
-      padding: 10px;
-    }
-
-    #instruct {
-      height: 70px;
-      width: 200px;
-      font-size: 100%;
-    }
-
     #results {
       font-size: 80%;
     }
