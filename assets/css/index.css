@@ -232,6 +232,7 @@ opacity: 3;
   
   /* Modal Content */
   .modal-content {
+    text-transform: uppercase;
     color: black;
     text-align: center;
     background-color:goldenrod;
@@ -239,7 +240,7 @@ opacity: 3;
     padding: 20px;
     border: solid black;
     width: 80%;
-    font-size: 150%;
+    font-size: 120%;
   }
   
   /* The Close Button */
@@ -377,6 +378,10 @@ opacity: 3;
 
     .btn {
       height: 60px;
+    }
+
+    .modal-content {
+      font-size: 100%;
     }
   }
 
