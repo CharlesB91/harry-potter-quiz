@@ -24,18 +24,6 @@
     text-align: center; 
   }
 
-
-  /* @keyframes home-zoom {
-    from {
-        transform: scale(1);
-
-    }
-    to {
-transform: scale(1.1);
-    }
-
-} */
-
   h2 {
     padding-top: 20px;
     font-size: 40px; 
@@ -135,7 +123,7 @@ opacity: 3;
   #question-placeholder {
     text-transform: uppercase;
     border: black solid ;
-    background-color: gray;
+    background-color: goldenrod;
     color: black;
     font-size: 150%;
   }
@@ -228,7 +216,7 @@ opacity: 3;
 
   /* Instructions Tab */
 
-  .overlay {
+  /* .overlay {
     height: 100%;
     width: 0;
     position: fixed;
@@ -283,7 +271,7 @@ opacity: 3;
   .wands {
     text-decoration: underline solid;
     padding: 10px;
-  }
+  } */
 
   /* Game Over Page */
 
