@@ -35,7 +35,7 @@
     <div id="home">
       <img
         src="./assets/images/Harry-Potter-Logo-New.png"
-        alt="Harry-Potter-Logo"
+        alt="harry-potter-logo"
         id="hp-logo"
       />
       <h2>Quiz</h2>
@@ -45,20 +45,53 @@
       <div id="flex-container" class="hide">
         <div id="question-placeholder">Questions To Ask</div>
         <div id="answer-buttons-container">
-          <button class="btn choice-text" data-number="1">Answer 1</button>
-          <button class="btn choice-text" data-number="2">Answer 2</button>
-          <button class="btn choice-text" data-number="3">Answer 3</button>
-          <button class="btn choice-text" data-number="4">Answer 4</button>
+          <button
+            class="btn choice-text"
+            data-number="1"
+            aria-label="answer-button-1"
+          >
+            Answer 1
+          </button>
+          <button
+            class="btn choice-text"
+            data-number="2"
+            aria-label="answer-button-2"
+          >
+            Answer 2
+          </button>
+          <button
+            class="btn choice-text"
+            data-number="3"
+            aria-label="answer-button-3"
+          >
+            Answer 3
+          </button>
+          <button
+            class="btn choice-text"
+            data-number="4"
+            aria-label="answer-button-4"
+          >
+            Answer 4
+          </button>
         </div>
-        <div id="reset"><a class="btn2" href="index.html">Reset Game !</a></div>
+        <div id="reset">
+          <a class="btn2" href="index.html" aria-label="reset-game-button"
+            >Reset Game !</a
+          >
+        </div>
       </div>
       <!-- Start & Instructions Tab -->
-      <button id="start-btn" class="btn">
+      <button id="start-btn" class="btn" aria-label="start-button">
         "i solemnly swear that i am up to no good" <br />
       </button>
     </div>
     <div id="instruct-tab">
-      <button id="instruct" class="btn" onclick="openNav()">
+      <button
+        id="instruct"
+        class="btn"
+        onclick="openNav()"
+        aria-label="instructions-button"
+      >
         Instructions
       </button>
     </div>
