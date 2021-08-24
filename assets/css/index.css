@@ -49,7 +49,7 @@ transform: scale(1.1);
 
 /* splash screen */
 
-.splash {
+/* .splash {
   position: fixed;
   top: 0;
   left: 0;
@@ -93,7 +93,7 @@ opacity: 3;
   animation: fadeIn 3s ease-in forwards;
   font-size: 200%;
 
-}
+} */
 
   /* Question Container With Answer Buttons & Controls */
 
