@@ -390,3 +390,26 @@ opacity: 3;
       padding: 10px;
     }
   }
+
+  @media screen and (max-width: 400px) {
+    #score-board, #hud-item  {
+      padding: 10px;
+      font-size: 80%;
+      height: 40px;
+    }
+
+    .btn {
+      height: 30px
+    }
+
+    .btn2 {
+      height: 30px;
+      font-size: 80%;
+    }
+
+    #question-placeholder {
+      font-size: 100%;
+    }
+
+  }
+
