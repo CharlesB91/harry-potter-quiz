@@ -165,6 +165,7 @@ opacity: 3;
 }
 
 .btn2:hover {
+  border: goldenrod solid;
   color: black;
   background-color: goldenrod;
 }
@@ -186,6 +187,7 @@ opacity: 3;
   }
 
   #start-btn:hover {
+    border: goldenrod solid;
     color: goldenrod;
     background-color:black;
   }
@@ -196,6 +198,7 @@ opacity: 3;
   }
 
   #instruct:hover {
+    border: goldenrod solid;
     color: goldenrod;
     background-color:black;
   }
@@ -314,7 +317,9 @@ opacity: 3;
   }
 
   #play-again:hover {
-    background-color: gray;
+    border: goldenrod solid;
+    color: goldenrod;
+    background-color: black;
   }
 
   /* Responsive Styles */
