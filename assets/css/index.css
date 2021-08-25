@@ -329,7 +329,7 @@ opacity: 3;
       font-size: 120%;
     }
 
-    #start-btn, #instruct {
+    #start-btn {
       width: 300px;
       font-size: 120%;
       padding: 20px;
@@ -342,6 +342,11 @@ opacity: 3;
   }
 
   @media screen and (max-width: 600px) {
+
+    #start-btn {
+      width: 200px;
+      font-size: 100%;
+    }
 
     .overlay-content {
       font-size: 100%;
