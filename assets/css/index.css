@@ -96,13 +96,14 @@ opacity: 3;
 
 
   #score-board, #hud-item  {
+    color: goldenrod;
     text-align: center;
     padding: 20px;
     font-size: 130%;
     width: 120px;
     height: 70px;
-    border: black solid;
-    background-color: goldenrod;
+    border: solid goldenrod;
+    background-color:black;
     margin: 10px;
     text-decoration: none;
   }
@@ -148,10 +149,11 @@ opacity: 3;
     font-weight: bold;
     font-family: 'STIX Two Text', serif;
     border: solid black;
-    color: black;
+    color: goldenrod;
     cursor: pointer; 
     border-radius: 5%;
-    background-color: gray;
+    border: goldenrod solid;
+    background-color: black;
     width: 200px;
     height: 90px;
     margin: 20px;
