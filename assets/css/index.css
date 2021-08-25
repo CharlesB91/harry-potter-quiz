@@ -403,7 +403,7 @@ opacity: 3;
     }
   }
 
-  @media screen and (max-width: 400px) {
+   @media screen and (max-width: 320px) {
     #score-board, #hud-item  {
       padding: 10px;
       font-size: 80%;
@@ -415,7 +415,7 @@ opacity: 3;
     }
 
     .btn2 {
-      height: 30px;
+      height: 20px;
       font-size: 80%;
     }
 
@@ -427,5 +427,5 @@ opacity: 3;
       padding: 0;
     }
 
-  }
+  } 
 
