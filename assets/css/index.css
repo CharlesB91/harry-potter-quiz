@@ -329,7 +329,7 @@ opacity: 3;
       font-size: 120%;
     }
 
-    #start-btn {
+    #start-btn, #instruct {
       width: 300px;
       font-size: 120%;
       padding: 20px;
@@ -346,6 +346,13 @@ opacity: 3;
     #start-btn {
       width: 200px;
       font-size: 100%;
+      padding: 0;
+    }
+
+    #instruct {
+      font-size: 80%;
+      width: 200px;
+      padding: 0;
     }
 
     .overlay-content {
