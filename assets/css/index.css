@@ -422,5 +422,9 @@ opacity: 3;
       padding: 0;
     }
 
+    #body2 {
+      height:100%;
+    }
+
   } 
 
