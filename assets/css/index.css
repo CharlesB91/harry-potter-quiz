@@ -83,8 +83,6 @@ opacity: 3;
 
 }
 
-  /* Question Container With Answer Buttons & Controls */
-
   /* Score-Board */
 
   #score-container {
@@ -108,6 +106,7 @@ opacity: 3;
     text-decoration: none;
   }
 
+    /* Question Container With Answer Buttons & Controls */
 
   #container {
     display: flex;
@@ -171,6 +170,7 @@ opacity: 3;
 }
 
 #reset {
+  text-align: center;
   margin: 20px;
 }
 
@@ -216,11 +216,6 @@ opacity: 3;
   .incorrect {
     background-color: red !important;
   }
-
-  #reset {
-    text-align: center;
-  }
-
 
   /* Instructions Tab */
 
