@@ -121,7 +121,6 @@ let questionSelect = document.getElementById("question-placeholder");
 let answers = Array.from(document.getElementsByClassName("choice-text"));
 let homeScreen = document.getElementById("home");
 let scoreBoard = document.getElementById("score-board");
-// let hideInstruct = document.getElementById("instruct");
 let questionsShow = document.getElementById("flex-container");
 let reset = document.getElementById("reset");
 let counterBoard = document.getElementById("hud-item");
@@ -141,7 +140,6 @@ startClick.addEventListener("click", start);
 function start() {
   homeScreen.classList.add("hide");
   startClick.classList.add("hide");
-  // hideInstruct.classList.add("hide");
   questionsShow.classList.remove("hide");
   scoreBoard.classList.remove("hide");
   reset.classList.remove("hide");

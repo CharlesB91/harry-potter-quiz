@@ -17,7 +17,7 @@
     background-repeat: no-repeat; 
     background-size: cover;
     width: 100%;
-    height: 100vh;
+    height: 100vh;  
   }
 
   #home {
@@ -156,12 +156,15 @@ opacity: 3;
     width: 200px;
     height: 90px;
     margin: 20px;
-    font-size: 100%;
     text-transform: uppercase;
     padding: 20px;
     text-decoration: none;
+    border: solid goldenrod;
+    cursor: pointer; 
+    font-size: 120%;
 
 }
+
 
 .btn2:hover {
   border: goldenrod solid;
@@ -171,7 +174,7 @@ opacity: 3;
 
 #reset {
   text-align: center;
-  margin: 20px;
+  margin-top: 30px;
 }
 
   .hide {
@@ -195,18 +198,6 @@ opacity: 3;
   #instruct-tab {
     padding: 20px;
     text-align: center;
-  }
-
-  #instruct:hover {
-    border: goldenrod solid;
-    color: goldenrod;
-    background-color:black;
-  }
-
-  #instruct {
-    border: solid black;
-    cursor: pointer; 
-    font-size: 120%;
   }
 
   .correct {
@@ -324,12 +315,6 @@ opacity: 3;
       font-size: 120%;
     }
 
-    #start-btn, #instruct {
-      width: 300px;
-      font-size: 120%;
-      padding: 20px;
-    }
-
     #hp-logo {
       width: 80%;
     }
@@ -346,7 +331,7 @@ opacity: 3;
 
     #instruct {
       font-size: 80%;
-      width: 200px;
+      /* width: 200px; */
       padding: 0;
     }
 
@@ -384,7 +369,7 @@ opacity: 3;
       font-size: 100%;
     }
 
-    .btn {
+    .btn, .btn2 {
       height: 50px
     }
 
@@ -396,35 +381,9 @@ opacity: 3;
     #score-container {
       padding: 10px;
     }
-  }
-
-   @media screen and (max-width: 320px) {
-    #score-board, #hud-item  {
-      padding: 10px;
-      font-size: 80%;
-      height: 40px;
-    }
-
-    .btn {
-      height: 30px
-    }
-
-    .btn2 {
-      height: 20px;
-      font-size: 80%;
-    }
-
-    #question-placeholder {
-      font-size: 100%;
-    }
-
-    #flex-container {
-      padding: 0;
-    }
 
     #body2 {
       height:100%;
-    }
-
-  } 
-
+    } 
+    
+  }
