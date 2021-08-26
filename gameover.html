@@ -8,50 +8,55 @@
       name="keywords"
       content="harry-potter, wizard, witch, hogwarts, voldemort, dumbledore, play, quiz"
     />
+    <!-- CSS stylesheet -->
     <link rel="stylesheet" href="assets/css/index.css" />
+    <!-- Stackoverflow resoultion due to 404 favicon error when favicon is not being used -->
+    <link rel="shortcut icon" href="#" />
     <title>Harry Potter Quiz</title>
   </head>
   <body>
     <!-- Results & House Sorting Display -->
-    <div id="center">
-      <div id="results">
-        <h1 id="sorting-hat-greeting"></h1>
-        <h1 id="house-sort"></h1>
+    <section>
+      <div id="center">
+        <div id="results">
+          <h1 id="sorting-hat-greeting"></h1>
+          <h1 id="house-sort"></h1>
+        </div>
+        <img
+          class="house-badge hide2"
+          id="gryffindor"
+          src="./assets/images/gryffindor.jpg"
+          alt="gryffindor-house-badge"
+        />
+        <img
+          class="house-badge hide3"
+          id="hufflepuff"
+          src="./assets/images/hufflepuff.jpg"
+          alt="hufflepuff-house-badge"
+        />
+        <img
+          class="house-badge hide4"
+          id="ravenclaw"
+          src="./assets/images/ravenclaw.png"
+          alt="ravenclaw-house-badge"
+        />
+        <img
+          class="house-badge hide5"
+          id="slytherin"
+          src="./assets/images/slytherin.jpg"
+          alt="slytherin-house-badge"
+        />
+        <div id="play-again-area">
+          <a
+            class="btn"
+            id="play-again"
+            href="index.html"
+            aria-label="play-again-button"
+            >Play Again</a
+          >
+        </div>
       </div>
-      <img
-        class="house-badge hide2"
-        id="gryffindor"
-        src="./assets/images/gryffindor.jpg"
-        alt="gryffindor-house-badge"
-      />
-      <img
-        class="house-badge hide3"
-        id="hufflepuff"
-        src="./assets/images/hufflepuff.jpg"
-        alt="hufflepuff-house-badge"
-      />
-      <img
-        class="house-badge hide4"
-        id="ravenclaw"
-        src="./assets/images/ravenclaw.png"
-        alt="ravenclaw-house-badge"
-      />
-      <img
-        class="house-badge hide5"
-        id="slytherin"
-        src="./assets/images/slytherin.jpg"
-        alt="slytherin-house-badge"
-      />
-      <div id="play-again-area">
-        <a
-          class="btn"
-          id="play-again"
-          href="index.html"
-          aria-label="play-again-button"
-          >Play Again</a
-        >
-      </div>
-    </div>
+    </section>
     <script src="./assets/js/end.js"></script>
   </body>
 </html>
