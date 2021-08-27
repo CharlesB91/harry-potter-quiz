@@ -15,35 +15,62 @@
     <title>Harry Potter Quiz</title>
   </head>
   <body id="body2">
-    <!-- Spash Page -->
+    <!-- Main Container With Questions & Start & Instruction Buttons  -->
+    <!-- Score Board -->
     <section>
-      <div class="splash">
-        <p class="fade-in">
-          Dear Player, <br />
-          We are pleased to inform you that you have been accepted at Hogwarts
-          School of Witchcraft and Wizardry.
-        </p>
+      <div id="score-container">
+        <div class="hide" id="score-board">
+          <p>Correct <span id="correct">0</span></p>
+          <p>Incorrect <span id="incorrect">0</span></p>
+        </div>
+        <div class="hide" id="hud-item">
+          <p>Question</p>
+          <h1 id="questionCounter"></h1>
+        </div>
       </div>
     </section>
-    <!-- Font Image With Text -->
+    <!-- Main Container With Questions & Start & Instruction Buttons  -->
     <section>
-      <div id="home">
-        <img
-          src="./assets/images/Harry-Potter-Logo-New.png"
-          alt="harry-potter-logo"
-          id="hp-logo"
-        />
-        <h2>Quiz</h2>
+      <div id="container">
+        <div id="flex-container">
+          <div id="question-placeholder">Questions To Ask</div>
+          <div id="answer-buttons-container">
+            <button
+              class="btn choice-text"
+              data-number="1"
+              aria-label="answer-button-1"
+            >
+              Answer 1
+            </button>
+            <button
+              class="btn choice-text"
+              data-number="2"
+              aria-label="answer-button-2"
+            >
+              Answer 2
+            </button>
+            <button
+              class="btn choice-text"
+              data-number="3"
+              aria-label="answer-button-3"
+            >
+              Answer 3
+            </button>
+            <button
+              class="btn choice-text"
+              data-number="4"
+              aria-label="answer-button-4"
+            >
+              Answer 4
+            </button>
+          </div>
+          <div id="reset">
+            <a class="btn2" href="index.html" aria-label="reset-game-button"
+              >Reset Game !</a
+            >
+          </div>
+        </div>
       </div>
-    </section>
-    <!--  Start & Instruction Buttons  -->
-    <section>
-      <div>
-        <a href="game.html" id="start-btn" class="btn" aria-label="start-button"
-          >i solemnly swear that i am up to no good</a
-        >
-      </div>
-
       <div id="instruct-tab">
         <button
           id="instruct"
@@ -75,6 +102,6 @@
       </div>
     </section>
     <!-- Script Sheet -->
-    <script src="assets/js/index.js"></script>
+    <script src="assets/js/game.js"></script>
   </body>
 </html>
