@@ -1,6 +1,9 @@
+// Game Start Function When Page Is Loaded //
+
 document.addEventListener("DOMContentLoaded", function () {
   start();
 });
+
 // Instruction Box //
 
 let modal = document.getElementById("myModal");
@@ -119,8 +122,8 @@ let avaliableQuestions = [];
 let questionCounter = 0;
 
 // Start Function
-// Removes HP image along with buttons
-// Question & Answer Buttons Appear
+// Questions Pulled From Question Pool
+// Display Questions Function
 
 function start() {
   questionCounter = 0;
@@ -129,8 +132,10 @@ function start() {
 }
 
 // Display Questions Function
-// Random Question Chosen from Pool &
+// Random Question Chosen &
 // Questions & Answer Populated in DOM
+// Any Question chosen is then taken out so
+// this is not asked again
 
 function displayQuestions() {
   if (questionCounter == 5) {

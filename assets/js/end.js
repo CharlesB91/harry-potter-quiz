@@ -11,8 +11,8 @@ let slyth = document.getElementById("slytherin");
 scoresOnDoors();
 
 // Sorting Function. Depending on
-// score player will be sorted into the house
-// according to their score
+// Score Player Will Be Sorted Into The House
+// According To Their Score
 
 function scoresOnDoors() {
   if (isNaN(mostRecentScore)) {
