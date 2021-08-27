@@ -37,11 +37,11 @@
 
   h2 {
     height: 100px;
-    padding-top: 20px;
     font-size: 40px; 
   }
 
   #hp-logo {
+    margin: 20px;
     width: 40%;
   }
 
