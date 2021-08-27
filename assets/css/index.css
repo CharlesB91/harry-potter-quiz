@@ -117,108 +117,107 @@ opacity: 3;
     text-decoration: none;
   }
 
-    /* Question Container With Answer Buttons & Controls */
+      /* Question Container With Answer Buttons & Controls */
 
-  #container {
-    display: flex;
-    justify-content: center;
-    height: 100%;
+      #container {
+        display: flex;
+        justify-content: center;
+        
+      }
     
-  }
-
-  #flex-container {
-    text-align: center;
-    width: 600px;
-    padding: 10px;
-  }
-
-  #question-placeholder {
-    text-transform: uppercase;
-    border: black solid ;
-    background-color: goldenrod;
-    color: black;
-    font-size: 130%;
-  }
-
-  .btn {
-    font-weight: bold;
-    font-family: 'STIX Two Text', serif;
-    border: solid black;
-    color: black;
-    cursor: pointer; 
-    border-radius: 5%;
-    background-color:goldenrod;
-    width: 200px;
-    height: 90px;
-    margin: 20px;
-    font-size: 100%;
-    text-transform: uppercase;
+      #flex-container {
+        text-align: center;
+        width: 600px;
+        padding: 10px;
+      }
     
-}
-
-.btn2 {
-    font-weight: bold;
-    font-family: 'STIX Two Text', serif;
-    border: solid black;
-    color: goldenrod;
-    cursor: pointer; 
-    border-radius: 5%;
-    border: goldenrod solid;
-    background-color: black;
-    width: 200px;
-    height: 90px;
-    margin: 20px;
-    text-transform: uppercase;
-    padding: 20px;
-    text-decoration: none;
-    border: solid goldenrod;
-    cursor: pointer; 
-    font-size: 120%;
-
-}
-
-
-.btn2:hover {
-  border: goldenrod solid;
-  color: black;
-  background-color: goldenrod;
-}
-
-#reset {
-  text-align: center;
-  margin-top: 30px;
-}
-
-  .hide {
-    display: none;
-  }
-
-  #start-btn {
-    text-align: center;
-    padding: 20px;
-    font-size: 150%;
-    height: 120px;
-    width: 400px;
-  }
-
-  #start-btn:hover {
-    border: goldenrod solid;
-    color: goldenrod;
-    background-color:black;
-  }
-
-  #instruct-tab {
-    padding: 20px;
-    text-align: center;
-  }
-
-  .correct {
-    background-color: green !important;
-  }
-
-  .incorrect {
-    background-color: red !important;
-  }
+      #question-placeholder {
+        text-transform: uppercase;
+        border: black solid ;
+        background-color: goldenrod;
+        color: black;
+        font-size: 130%;
+      }
+    
+      .btn {
+        font-weight: bold;
+        font-family: 'STIX Two Text', serif;
+        border: solid black;
+        color: black;
+        cursor: pointer; 
+        border-radius: 5%;
+        background-color:goldenrod;
+        width: 200px;
+        height: 90px;
+        margin: 20px;
+        font-size: 100%;
+        text-transform: uppercase;
+        
+    }
+    
+    .btn2 {
+        font-weight: bold;
+        font-family: 'STIX Two Text', serif;
+        border: solid black;
+        color: goldenrod;
+        cursor: pointer; 
+        border-radius: 5%;
+        border: goldenrod solid;
+        background-color: black;
+        width: 200px;
+        height: 90px;
+        margin: 20px;
+        text-transform: uppercase;
+        padding: 20px;
+        text-decoration: none;
+        border: solid goldenrod;
+        cursor: pointer; 
+        font-size: 120%;
+    
+    }
+    
+    
+    .btn2:hover {
+      border: goldenrod solid;
+      color: black;
+      background-color: goldenrod;
+    }
+    
+    #reset {
+      text-align: center;
+      margin-top: 30px;
+    }
+    
+      .hide {
+        display: none;
+      }
+    
+      #start-btn {
+        text-align: center;
+        padding: 20px;
+        font-size: 150%;
+        height: 120px;
+        width: 400px;
+      }
+    
+      #start-btn:hover {
+        border: goldenrod solid;
+        color: goldenrod;
+        background-color:black;
+      }
+    
+      #instruct-tab {
+        padding: 20px;
+        text-align: center;
+      }
+    
+      .correct {
+        background-color: green !important;
+      }
+    
+      .incorrect {
+        background-color: red !important;
+      }
 
   /* Instructions Tab */
 
@@ -320,8 +319,6 @@ opacity: 3;
     background-color: black;
   }
 
-  /* Footer  */
-
   /* Responsive Styles */
 
   @media screen and (max-width: 900px) {
@@ -336,12 +333,6 @@ opacity: 3;
   }
 
   @media screen and (max-width: 600px) {
-
-    #start-btn {
-      width: 200px;
-      font-size: 100%;
-      padding: 0;
-    }
 
     #instruct {
       font-size: 80%;
