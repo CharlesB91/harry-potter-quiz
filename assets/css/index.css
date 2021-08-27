@@ -334,6 +334,12 @@ opacity: 3;
 
   @media screen and (max-width: 600px) {
 
+    #start-btn {
+      width: 200px;
+      font-size: 100%;
+      padding: 0;
+    }
+
     #instruct {
       font-size: 80%;
       /* width: 200px; */
