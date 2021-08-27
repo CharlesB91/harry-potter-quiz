@@ -1,13 +1,6 @@
-// fade in home screen //
-
-let splash = document.querySelector(".splash");
-
-document.addEventListener("DOMContentLoaded", (e) => {
-  setTimeout(() => {
-    splash.classList.add("display-none");
-  }, 5000);
+document.addEventListener("DOMContentLoaded", function () {
+  start();
 });
-
 // Instruction Box //
 
 let modal = document.getElementById("myModal");
@@ -119,31 +112,17 @@ let quizquestions = [
 
 let questionSelect = document.getElementById("question-placeholder");
 let answers = Array.from(document.getElementsByClassName("choice-text"));
-let homeScreen = document.getElementById("home");
-let scoreBoard = document.getElementById("score-board");
-let questionsShow = document.getElementById("flex-container");
-let reset = document.getElementById("reset");
-let counterBoard = document.getElementById("hud-item");
 let counterText = document.getElementById("questionCounter");
 
 let currentQuestion = {};
 let avaliableQuestions = [];
 let questionCounter = 0;
 
-// let startClick = document.getElementById("start-btn");
-// startClick.addEventListener("click", start);
-
 // Start Function
 // Removes HP image along with buttons
 // Question & Answer Buttons Appear
 
 function start() {
-  // homeScreen.classList.add("hide");
-  // startClick.classList.add("hide");
-  questionsShow.classList.remove("hide");
-  scoreBoard.classList.remove("hide");
-  reset.classList.remove("hide");
-  counterBoard.classList.remove("hide");
   questionCounter = 0;
   avaliableQuestions = [...quizquestions];
   displayQuestions();
