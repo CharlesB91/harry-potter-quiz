@@ -1,51 +1,49 @@
-@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=STIX+Two+Text&display=swap");
 
 /* Home Screen & Image Properties */
 * {
-    margin: 0;
-    padding: 0;
-    border: none;
-  }
+  margin: 0;
+  padding: 0;
+  border: none;
+}
 
-  body {
-    font-family: 'STIX Two Text', serif;
-  }
+body {
+  font-family: "STIX Two Text", serif;
+}
 
-  #body2 {
-    background-image: url("../images/hogwarts-2.jpg"); 
-    background-position: center center;
-    background-repeat: no-repeat; 
-    background-size: cover;
-    text-align: center;
-    width: 100%;
-    height: 100vh;
-  }
+#body2 {
+  background-image: url("../images/hogwarts-2.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+}
 
-  #body3 {
-    background-image: url("../images/hogwarts-2.jpg"); 
-    background-position: center center;
-    background-repeat: no-repeat; 
-    background-size: cover;
-    text-align: center;
-    width: 100%;
-    height: 100%;
-  }
+#body3 {
+  background-image: url("../images/hogwarts-2.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
 
-  #home {
-    text-align: center; 
-  }
+#home {
+  text-align: center;
+}
 
-  h2 {
-    height: 100px;
-    font-size: 40px; 
-  }
+h2 {
+  height: 100px;
+  font-size: 40px;
+}
 
-  #hp-logo {
-    margin: 20px;
-    width: 50%;
-  }
-
-
+#hp-logo {
+  margin: 20px;
+  width: 50%;
+}
 
 /* splash screen */
 
@@ -60,7 +58,6 @@
   color: white;
   text-align: center;
   padding: 150px 0;
-
 }
 
 .splash.display-none {
@@ -80,9 +77,8 @@
 
 @keyframes fadeIn {
   to {
-opacity: 3;
+    opacity: 3;
   }
-
 }
 
 .fade-in {
@@ -91,340 +87,334 @@ opacity: 3;
   opacity: 0;
   animation: fadeIn 3s ease-in forwards;
   font-size: 200%;
-
 }
 
-  /* Score-Board */
+/* Score-Board */
 
-  #score-container {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    padding: 20px;
-  }
+#score-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
 
+#score-board,
+#hud-item {
+  color: goldenrod;
+  text-align: center;
+  padding: 20px;
+  font-size: 120%;
+  width: 120px;
+  height: 70px;
+  border: solid goldenrod;
+  background-color: black;
+  margin: 10px;
+  text-decoration: none;
+}
 
-  #score-board, #hud-item  {
-    color: goldenrod;
-    text-align: center;
-    padding: 20px;
+/* Question Container With Answer Buttons & Controls */
+
+#container {
+  display: flex;
+  justify-content: center;
+}
+
+#flex-container {
+  text-align: center;
+  width: 600px;
+  padding: 10px;
+}
+
+#question-placeholder {
+  text-transform: uppercase;
+  border: black solid;
+  background-color: goldenrod;
+  color: black;
+  font-size: 130%;
+}
+
+.btn {
+  font-weight: bold;
+  font-family: "STIX Two Text", serif;
+  border: solid black;
+  color: black;
+  cursor: pointer;
+  border-radius: 5%;
+  background-color: goldenrod;
+  width: 200px;
+  height: 90px;
+  margin: 20px;
+  font-size: 100%;
+  text-transform: uppercase;
+}
+
+.btn2 {
+  font-weight: bold;
+  font-family: "STIX Two Text", serif;
+  border: solid black;
+  color: goldenrod;
+  cursor: pointer;
+  border-radius: 5%;
+  border: goldenrod solid;
+  background-color: black;
+  width: 200px;
+  height: 90px;
+  margin: 20px;
+  text-transform: uppercase;
+  padding: 20px;
+  text-decoration: none;
+  border: solid goldenrod;
+  cursor: pointer;
+  font-size: 120%;
+}
+
+.btn3 {
+  font-weight: bold;
+  font-family: "STIX Two Text", serif;
+  border: solid black;
+  color: goldenrod;
+  cursor: pointer;
+  border-radius: 5%;
+  border: goldenrod solid;
+  background-color: black;
+  width: 300px;
+  height: 80px;
+  margin: 20px;
+  text-transform: uppercase;
+  padding-top: 25px;
+  text-decoration: none;
+  border: solid goldenrod;
+  cursor: pointer;
+  font-size: 120%;
+}
+
+#start {
+  display: flex;
+  justify-content: center;
+}
+
+.btn2:hover,
+.btn3:hover {
+  border: goldenrod solid;
+  color: black;
+  background-color: goldenrod;
+}
+
+#reset {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.hide {
+  display: none;
+}
+
+#start-btn {
+  text-align: center;
+  padding: 20px;
+  font-size: 150%;
+  height: 120px;
+  width: 400px;
+}
+
+#start-btn:hover {
+  border: goldenrod solid;
+  color: goldenrod;
+  background-color: black;
+}
+
+#instruct-tab {
+  padding: 20px;
+  text-align: center;
+}
+
+.correct {
+  background-color: green !important;
+}
+
+.incorrect {
+  background-color: red !important;
+}
+
+/* Instructions Tab */
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Modal Content */
+.modal-content {
+  text-transform: uppercase;
+  color: black;
+  text-align: center;
+  background-color: goldenrod;
+  margin: auto;
+  padding: 20px;
+  border: solid black;
+  width: 80%;
+  font-size: 120%;
+}
+
+/* The Close Button */
+.close {
+  color: black;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Game Over Page */
+
+#center {
+  color: white;
+  background-image: url(../images/grand-hall.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  padding-top: 100px;
+  text-align: center;
+}
+
+#play-again-area a {
+  font-size: 120%;
+  padding: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#results {
+  position: relative;
+  bottom: 50px;
+  text-transform: uppercase;
+  color: black;
+  background-color: goldenrod;
+  font-size: 150%;
+}
+
+.house-badge {
+  margin-bottom: 50px;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.hide2 {
+  display: none;
+}
+.hide3 {
+  display: none;
+}
+.hide4 {
+  display: none;
+}
+.hide5 {
+  display: none;
+}
+
+#play-again:hover {
+  border: goldenrod solid;
+  color: goldenrod;
+  background-color: black;
+}
+
+/* Responsive Styles */
+
+@media screen and (max-width: 900px) {
+  #results {
     font-size: 120%;
-    width: 120px;
-    height: 70px;
-    border: solid goldenrod;
-    background-color:black;
-    margin: 10px;
-    text-decoration: none;
   }
 
-      /* Question Container With Answer Buttons & Controls */
-
-      #container {
-        display: flex;
-        justify-content: center;
-        
-      }
-    
-      #flex-container {
-        text-align: center;
-        width: 600px;
-        padding: 10px;
-      }
-    
-      #question-placeholder {
-        text-transform: uppercase;
-        border: black solid ;
-        background-color: goldenrod;
-        color: black;
-        font-size: 130%;
-      }
-    
-      .btn {
-        font-weight: bold;
-        font-family: 'STIX Two Text', serif;
-        border: solid black;
-        color: black;
-        cursor: pointer; 
-        border-radius: 5%;
-        background-color:goldenrod;
-        width: 200px;
-        height: 90px;
-        margin: 20px;
-        font-size: 100%;
-        text-transform: uppercase;
-        
-    }
-    
-    .btn2 {
-        font-weight: bold;
-        font-family: 'STIX Two Text', serif;
-        border: solid black;
-        color: goldenrod;
-        cursor: pointer; 
-        border-radius: 5%;
-        border: goldenrod solid;
-        background-color: black;
-        width: 200px;
-        height: 90px;
-        margin: 20px;
-        text-transform: uppercase;
-        padding: 20px;
-        text-decoration: none;
-        border: solid goldenrod;
-        cursor: pointer; 
-        font-size: 120%;
-    
-    }
-
-    .btn3 {
-      font-weight: bold;
-      font-family: 'STIX Two Text', serif;
-      border: solid black;
-      color: goldenrod;
-      cursor: pointer; 
-      border-radius: 5%;
-      border: goldenrod solid;
-      background-color: black;
-      width: 300px;
-      height: 80px;
-      margin: 20px;
-      text-transform: uppercase;
-      padding-top: 25px;
-      text-decoration: none;
-      border: solid goldenrod;
-      cursor: pointer; 
-      font-size: 120%;
-  
-  }
-
-  #start {
-    display: flex;
-    justify-content: center;
-  }
-    
-    
-    .btn2:hover, .btn3:hover {
-      border: goldenrod solid;
-      color: black;
-      background-color: goldenrod;
-    }
-    
-    #reset {
-      text-align: center;
-      margin-top: 30px;
-    }
-    
-      .hide {
-        display: none;
-      }
-    
-      #start-btn {
-        text-align: center;
-        padding: 20px;
-        font-size: 150%;
-        height: 120px;
-        width: 400px;
-      }
-    
-      #start-btn:hover {
-        border: goldenrod solid;
-        color: goldenrod;
-        background-color:black;
-      }
-    
-      #instruct-tab {
-        padding: 20px;
-        text-align: center;
-      }
-    
-      .correct {
-        background-color: green !important;
-      }
-    
-      .incorrect {
-        background-color: red !important;
-      }
-
-  /* Instructions Tab */
-
-  .modal {
-    display: none; 
-    position: fixed; 
-    z-index: 1; 
-    padding-top: 100px; 
-    left: 0;
-    top: 0;
-    width: 100%; 
-    height: 100%; 
-    overflow: auto; 
-    background-color: rgb(0,0,0); 
-    background-color: rgba(0,0,0,0.4); 
-  }
-  
-  /* Modal Content */
-  .modal-content {
-    text-transform: uppercase;
-    color: black;
-    text-align: center;
-    background-color:goldenrod;
-    margin: auto;
-    padding: 20px;
-    border: solid black;
+  #hp-logo {
     width: 80%;
-    font-size: 120%;
   }
-  
-  /* The Close Button */
-  .close {
-    color: black;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-  }
-  
-  .close:hover,
-  .close:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  #start-btn {
+    width: 200px;
+    font-size: 100%;
+    padding: 0;
   }
 
-  /* Game Over Page */
-
-  #center {
-    color: white;
-    background-image: url(../images/grand-hall.jpg);
-    background-position: center center;
-    background-repeat: no-repeat; 
-    background-size: cover;
-    height: 100vh;
-    width: 100vw;
-    padding-top: 100px;
-    text-align: center;
+  #instruct {
+    font-size: 80%;
+    /* width: 200px; */
+    padding: 0;
   }
 
-  #play-again-area a {
-    font-size: 120%;
-    padding: 20px;
-    text-decoration: none;
-    text-transform: uppercase;
+  .overlay-content {
+    font-size: 100%;
+  }
+
+  #front-controls {
+    display: flex;
+    flex-wrap: wrap;
   }
 
   #results {
-    position: relative;
-    bottom: 50px;
-    text-transform: uppercase;
-    color: black;
-    background-color: goldenrod;
+    font-size: 80%;
+  }
+
+  .splash,
+  .splash.display-none {
+    padding: 90px 0;
+  }
+
+  .fade-in {
     font-size: 150%;
   }
 
+  .overlay-content {
+    font-size: 100%;
+  }
+
   .house-badge {
-    margin-bottom: 50px;
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
+    width: 200px;
+    height: 200px;
   }
 
-  .hide2 {
-    display: none;
-  }
-  .hide3 {
-    display: none;
-  }
-  .hide4 {
-    display: none;
-  }
-  .hide5 {
-    display: none;
+  .modal-content {
+    font-size: 100%;
   }
 
-  #play-again:hover {
-    border: goldenrod solid;
-    color: goldenrod;
-    background-color: black;
+  .button {
+    font-size: 100%;
+    height: 50px;
+    width: 200px;
+    padding: 10px;
   }
 
-  /* Responsive Styles */
-
-  @media screen and (max-width: 900px) {
-    #results {
-      font-size: 120%;
-    }
-
-    #hp-logo {
-      width: 80%;
-    }
-
+  .btn,
+  .btn2 {
+    height: 50px;
   }
 
-  @media screen and (max-width: 600px) {
-
-    #start-btn {
-      width: 200px;
-      font-size: 100%;
-      padding: 0;
-    }
-
-    #instruct {
-      font-size: 80%;
-      /* width: 200px; */
-      padding: 0;
-    }
-
-    .overlay-content {
-      font-size: 100%;
-    }
-
-    #front-controls {
-      display: flex;
-      flex-wrap: wrap;
-    }
-
-    #results {
-      font-size: 80%;
-    }
-
-    .splash, .splash.display-none {
-      padding: 90px 0;
-    }
-
-    .fade-in {
-      font-size: 150%;
-    }
-
-    .overlay-content {
-      font-size: 100%;
-    }
-
-    .house-badge {
-      width: 200px;
-      height: 200px;
-    }
-
-    .modal-content {
-      font-size: 100%;
-    }
-
-    .button {
-      font-size: 100%;
-      height: 50px;
-      width: 200px;
-      padding: 10px;
-      
-    }
-
-    .btn, .btn2 {
-      height: 50px
-    }
-
-    #score-board, #hud-item  {
-      padding: 10px;
-      font-size: 120%;
-      height: 70px;
-    }
-    #score-container {
-      padding: 10px;
-    }
-    
+  #score-board,
+  #hud-item {
+    padding: 10px;
+    font-size: 120%;
+    height: 70px;
   }
+  #score-container {
+    padding: 10px;
+  }
+}
