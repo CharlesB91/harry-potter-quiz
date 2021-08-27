@@ -112,6 +112,7 @@ opacity: 3;
   #container {
     display: flex;
     justify-content: center;
+    height: 100%;
     
   }
 
@@ -309,6 +310,13 @@ opacity: 3;
     background-color: black;
   }
 
+  /* Footer  */
+
+  /* footer {
+    height: 100%;
+    background-color: goldenrod;
+  } */
+
   /* Responsive Styles */
 
   @media screen and (max-width: 900px) {
@@ -382,9 +390,14 @@ opacity: 3;
     #score-container {
       padding: 10px;
     }
-
-    /* #body2 {
-      height:100%;
-    }  */
     
+  }
+
+  @media screen and (max-width: 320px) {
+        #body2 {
+      height:100%;
+    } 
+    .wands {
+      font-size: 100%;
+    }
   }
