@@ -42,7 +42,7 @@
 
   #hp-logo {
     margin: 20px;
-    width: 40%;
+    width: 50%;
   }
 
 
@@ -176,35 +176,34 @@ opacity: 3;
     
     }
 
-    .button {
+    .btn3 {
       font-weight: bold;
       font-family: 'STIX Two Text', serif;
-      display: block;
-      width: 350px;
-      height: 100px;
+      border: solid black;
       color: goldenrod;
+      cursor: pointer; 
+      border-radius: 5%;
       border: goldenrod solid;
       background-color: black;
-      padding-top: 25px;
-      text-align: center;
-      border-radius: 5px;
-      font-weight: bold;
-      line-height: 25px;
-      font-size: 180%;
-      text-decoration: none;
+      width: 300px;
+      height: 80px;
+      margin: 20px;
       text-transform: uppercase;
-      border-radius: 5%;
-      cursor: pointer;
+      padding-top: 25px;
+      text-decoration: none;
+      border: solid goldenrod;
+      cursor: pointer; 
+      font-size: 120%;
+  
   }
 
   #start {
     display: flex;
     justify-content: center;
-    padding: 20px;
   }
     
     
-    .btn2:hover, .button:hover {
+    .btn2:hover, .btn3:hover {
       border: goldenrod solid;
       color: black;
       background-color: goldenrod;
