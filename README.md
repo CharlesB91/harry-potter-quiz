@@ -58,5 +58,9 @@ The aim is to test the knowledge of any harry potter fan but answering a series 
 
 **Instruction Modal Window**
 
-- 
+- This window contains specific instructions on how to play the game 
+- Code from W3 schools was used to create this page which is powered by javascript. 
+
+![Modal-Box](https://github.com/CharlesB91/harry-potter-quiz/blob/master/assets/images/readme-img/instruction-tab.PNG)
+
 
