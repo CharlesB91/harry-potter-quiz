@@ -100,13 +100,33 @@ The aim is to test the knowledge of any harry potter fan but answering a series 
 
 ### End Screen (Sorting Ceremony)
 
-- This area will display the users score and will display which house the user will be sorted into depending on score
+- This area will display the users score and will display which house the user will be sorted into depending on score.
+- This area background features the famous great hall in hogwarts where the sorting ceremony would be held.
+- Additionally there is an accopyning nav bar with play again button if the user wishes to play again.
 - Score of 5 - Gryffindor
 - Score of 4 - Hufflepuff
 - Score of 3 - Ravenclaw
 - Score of 2 of below - Slytherin
 
 ![End Screen (Sorting Ceremony)](https://github.com/CharlesB91/harry-potter-quiz/blob/master/assets/images/readme-img/end-screen-house-sort.PNG)
+
+
+### Design
+
+**Colour**
+
+- For this area i focused mainly on 2 colours
+- Goldenrod - This compliments the original colour of the Harry Potter text in the front cover of the books.
+- Black - This helps create a contrast between the goldenrod. 
+
+**Font-Style**
+
+- The particular font style "STIX Two Text" has been used as i feel this also compliments the font used in the Harry Potter Books.
+
+
+
+
+
 
 
 
