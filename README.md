@@ -141,7 +141,15 @@ The aim is to test the knowledge of any harry potter fan but answering a series 
 - HTML
   - No errors were returned when passing through the official [W3C validator].
 - Home Page - (https://validator.w3.org/nu/?doc=https%3A%2F%2Fcharlesb91.github.io%2Fharry-potter-quiz%2F)
-- Game Page - 
+- Game Page - (https://validator.w3.org/nu/?doc=https%3A%2F%2Fcharlesb91.github.io%2Fharry-potter-quiz%2Fgame.html)
+- End Page - (https://validator.w3.org/nu/?doc=https%3A%2F%2Fcharlesb91.github.io%2Fharry-potter-quiz%2Fgameover.html)
+- The only warning displayed for each page are due to empty headings as these are being manipulated with javascript
+
+- CSS
+  - No errors were returned when passing through the official [W3C validator].
+- Home Page - (http://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fcharlesb91.github.io%2Fharry-potter-quiz%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+- Game Page - (http://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fcharlesb91.github.io%2Fharry-potter-quiz%2Fgame.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+- End Page - (http://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fcharlesb91.github.io%2Fharry-potter-quiz%2Fgameover.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 
 
