@@ -30,6 +30,8 @@ The aim is to test the knowledge of any harry potter fan but answering a series 
 
 ## Features
 
+### Splash Screen
+
 ### Home Page
 
 - This area has background of the famour hogwarts castle which can be seen on all screen sizes. 
@@ -96,7 +98,13 @@ The aim is to test the knowledge of any harry potter fan but answering a series 
 
 ![Question Placeholder & Answer Buttons](https://github.com/CharlesB91/harry-potter-quiz/blob/master/assets/images/readme-img/questions-answer-buttons.PNG)
 
+### End Screen (Sorting Ceremony)
 
+- This area will display the users score and will display which house the user will be sorted into depending on score
+- Score of 5 - Gryffindor
+- Score of 4 - Hufflepuff
+- Score of 3 - Ravenclaw
+- Score of 2 of below - Slytherin
 
 
 
