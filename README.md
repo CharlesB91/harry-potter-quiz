@@ -39,10 +39,21 @@ The aim is to test the knowledge of any harry potter fan but answering a series 
 
 **Harry Potter Text**
 
-- This particular highly reconsiable text is the exact same font used in the book and in the films. 
+- This highly reconsiable text is the exact same font used in the book and in the films. 
 - The golden colour compliments the colour used in all the front covers of the books.
 - This originally was an image taken from google however with the use of adobe illistrator i was able to trace the image and change the colour to the chosen goldenrod. 
 
 ![Harry-Potter-Logo-Text](https://github.com/CharlesB91/harry-potter-quiz/blob/master/assets/images/Harry-Potter-Logo-New.png)
 
+
+**Start Button & Instructions Button**
+
+- For this area there are two highly distintive buttons to start the game & also for instructions.
+- "i solemnly swear that i am up to no good" is a famous quote used in the film/books which is contained in the start button.
+- An instruction button is also included her which will open a modal window with info on how to play the game. 
+- Finally contrasting colours were chosen were chosen to make these buttons stand out. 
+
+**Instruction Modal Window**
+
+- 
 
