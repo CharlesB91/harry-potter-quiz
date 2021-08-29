@@ -106,5 +106,9 @@ The aim is to test the knowledge of any harry potter fan but answering a series 
 - Score of 3 - Ravenclaw
 - Score of 2 of below - Slytherin
 
+![End Screen (Sorting Ceremony)](https://github.com/CharlesB91/harry-potter-quiz/blob/master/assets/images/readme-img/end-screen-house-sort.PNG)
+
+
+
 
 
