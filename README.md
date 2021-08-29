@@ -124,6 +124,15 @@ The aim is to test the knowledge of any harry potter fan but answering a series 
 - The particular font style "STIX Two Text" has been used as i feel this also compliments the font used in the Harry Potter Books.
 
 
+## Features Left to Implement
+
+- Additional features left which would improve the sits cabibplities would be to have functionallity for the user to enter their username. 
+- Finally an area where the user could save their scores and have a scoreboard with highest scores for different users using a remote storage solution. 
+
+## Testing
+
+
+
 
 
 
