@@ -18,7 +18,7 @@ The aim is to test the knowledge of any harry potter fan but answering a series 
 
 - This will give the user a true reflection on how well they know the films/books as well as an enjoyable experiance to play with friends and family. 
 
-### Wireframing
+## Wireframing
 
 - Initially sketched my ideas on to my note pad to try and visualise my idea. When I was happy with this I created a simulation using balsamiq for the wireframe. 
 - Below are two sketches of the home screen and quiz screen. 
@@ -63,4 +63,11 @@ The aim is to test the knowledge of any harry potter fan but answering a series 
 
 ![Modal-Box](https://github.com/CharlesB91/harry-potter-quiz/blob/master/assets/images/readme-img/instruction-tab.PNG)
 
+
+### Quiz Screen
+
+- This area is the main quiz screen where user will answers a series of 5 quesions to complete the quiz. 
+- The background again features the famous hogwarts castle. 
+
+![Quiz-Screen]()
 
