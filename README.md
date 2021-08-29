@@ -78,3 +78,12 @@ The aim is to test the knowledge of any harry potter fan but answering a series 
 
 ![Nav-Bar](https://github.com/CharlesB91/harry-potter-quiz/blob/master/assets/images/readme-img/nav-bar.PNG)
 
+**Score-Board & Question Counter**
+
+- This area shows 2 high contrast boxes which indicate to the user their score and which question they are on. 
+- The score counter contains a correct and incorrect counter so the user can keep a track on where they are.
+- Additionally this will also inform the user how many questions they are on before they hit the final 5th question. 
+
+![Score-Board-Question-Counter](https://github.com/CharlesB91/harry-potter-quiz/blob/master/assets/images/readme-img/score-board-question-counter.PNG)
+
+
