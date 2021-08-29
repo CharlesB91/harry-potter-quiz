@@ -87,3 +87,16 @@ The aim is to test the knowledge of any harry potter fan but answering a series 
 ![Score-Board-Question-Counter](https://github.com/CharlesB91/harry-potter-quiz/blob/master/assets/images/readme-img/score-board-question-counter.PNG)
 
 
+**Question Container & Answer Buttons**
+
+- This area which is powered highly with javascript is the main functionaliy of the quiz.
+- This features a questions place holder text which will display 5 randonm questions.
+- Additionally there is 4 answer buttons which contain 4 possible answers which are pre populated everytime a new question is displayed. 
+- Anytime a user selects an answer this will be highlighted as red or green to indicate if its correct or not. This will then be added to the scoreboard and a new question will appear until the user hits 5 questions max. 
+
+![Question Placeholder & Answer Buttons](https://github.com/CharlesB91/harry-potter-quiz/blob/master/assets/images/readme-img/questions-answer-buttons.PNG)
+
+
+
+
+
