@@ -111,7 +111,7 @@ The aim is to test the knowledge of any harry potter fan but answering a series 
 ![End Screen (Sorting Ceremony)](https://github.com/CharlesB91/harry-potter-quiz/blob/master/assets/images/readme-img/end-screen-house-sort.PNG)
 
 
-### Design
+## Design
 
 **Colour**
 
@@ -130,6 +130,9 @@ The aim is to test the knowledge of any harry potter fan but answering a series 
 - Finally an area where the user could save their scores and have a scoreboard with highest scores for different users using a remote storage solution. 
 
 ## Testing
+
+- This page has been through extensive testing via google chrome developer tools so that any user using desktop, tablet, mobile device will have a great experience seeing all the visual and text content but also easily navigate through the site.
+
 
 
 
