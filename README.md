@@ -53,6 +53,9 @@ The aim is to test the knowledge of any harry potter fan but answering a series 
 - An instruction button is also included her which will open a modal window with info on how to play the game. 
 - Finally contrasting colours were chosen were chosen to make these buttons stand out. 
 
+![Start&Instruction-Button](https://github.com/CharlesB91/harry-potter-quiz/blob/master/assets/images/readme-img/font-buttons.PNG)
+
+
 **Instruction Modal Window**
 
 - 
