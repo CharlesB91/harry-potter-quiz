@@ -69,5 +69,5 @@ The aim is to test the knowledge of any harry potter fan but answering a series 
 - This area is the main quiz screen where user will answers a series of 5 quesions to complete the quiz. 
 - The background again features the famous hogwarts castle. 
 
-![Quiz-Screen]()
+![Quiz-Screen](https://github.com/CharlesB91/harry-potter-quiz/blob/master/assets/images/readme-img/quiz-screen.PNG)
 
