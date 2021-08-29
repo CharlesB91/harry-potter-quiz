@@ -34,7 +34,7 @@ The aim is to test the knowledge of any harry potter fan but answering a series 
 
 - This area has background of the famour hogwarts castle which can be seen on all screen sizes. 
 
-![Home-Screen-Hogwarts](https://github.com/CharlesB91/harry-potter-quiz/blob/master/assets/images/readme-img/Wireframe-question-screen.png)
+![Home-Screen-Hogwarts](https://github.com/CharlesB91/harry-potter-quiz/blob/master/assets/images/readme-img/home-screen.PNG)
 
 
 **Harry Potter Text**
