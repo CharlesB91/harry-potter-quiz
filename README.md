@@ -71,3 +71,10 @@ The aim is to test the knowledge of any harry potter fan but answering a series 
 
 ![Quiz-Screen](https://github.com/CharlesB91/harry-potter-quiz/blob/master/assets/images/readme-img/quiz-screen.PNG)
 
+**Nav-Bar**
+
+- This area is only visible on the quiz screen & final page (Sorting Ceremony). 
+- This features a home screen & insturction tab which allows for easy navigation and help if the user is unsure how to play. 
+
+![Nav-Bar](https://github.com/CharlesB91/harry-potter-quiz/blob/master/assets/images/readme-img/nav-bar.PNG)
+
