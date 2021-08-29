@@ -40,6 +40,7 @@ h2 {
   width: 50%;
 }
 
+
 /* splash screen */
 
 .splash {
@@ -105,6 +106,43 @@ h2 {
   background-color: black;
   margin: 10px;
   text-decoration: none;
+}
+
+/* Nav Bar */
+
+.topnav {
+  overflow: hidden;
+  background-color:black;
+  display: flex;
+  justify-content: center;
+}
+
+.topnav a {
+  font-weight: bold;
+  background-color: #000;
+  font-family: "STIX Two Text", serif;
+  text-transform: uppercase;
+  float: left;
+  display: block;
+  color: goldenrod;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color:goldenrod;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: black;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
 }
 
 /* Question Container With Answer Buttons & Controls */
@@ -348,12 +386,6 @@ h2 {
   #start-btn {
     width: 200px;
     font-size: 100%;
-    padding: 0;
-  }
-
-  #instruct {
-    font-size: 80%;
-    /* width: 200px; */
     padding: 0;
   }
 

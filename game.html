@@ -16,6 +16,14 @@
   </head>
   <body>
     <div class="wrapper">
+      <!-- Nav Bar -->
+      <div class="topnav" id="myTopnav">
+        <a href="index.html">Home</a>
+        <a id="instruct">Instructions </a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
       <!-- Score Board -->
       <section>
         <div id="score-container">
@@ -64,22 +72,6 @@
                 Answer 4
               </button>
             </div>
-            <div id="reset">
-              <a class="btn2" href="index.html" aria-label="reset-game-button"
-                >Reset Game !</a
-              >
-            </div>
-          </div>
-        </div>
-        <div id="instruct-tab">
-          <button
-            id="instruct"
-            class="btn2"
-            onclick="openNav()"
-            aria-label="instructions-button"
-          >
-            Instructions
-          </button>
         </div>
       </section>
       <!-- Instructions Tab -->
@@ -87,7 +79,7 @@
         <div id="myModal" class="modal">
           <div class="modal-content">
             <span class="close">&times;</span>
-            <h1 class="wands">Wands At The Ready !</h1>
+            <h1 class="wands">Wands At The Ready</h1>
             <br />
             <p>To Start Please Pledge</p>
             <p>"I solemnly swear that I am up to no good"</p>
