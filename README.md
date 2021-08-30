@@ -199,6 +199,19 @@ The aim is to test the knowledge of any harry potter fan but answering a series 
 
 The live link can be found here - https://charlesb91.github.io/harry-potter-quiz/
 
+## Credits
+
+- There has been various sources of credit used for this site.
+- James Q Quick youtube tutorial provided excellent guidence on how to pre populate questions and answer buttons from question pool. (https://www.youtube.com/watch?v=zZdQGs62cR8).
+- Splash Screen idea was taken from you tube tutorial which give the quiz that extra piece of exiciting experiance for the user. (https://www.youtube.com/watch?v=MOlaldp1Fv4).
+- Modal instuction Screen code was borrowed from W3Schools. Styling was my own choice & text. (https://www.w3schools.com/howto/howto_css_modals.asp).
+
+## Media
+
+-Hogwarts background image was taken from unsplash (https://unsplash.com/s/photos/hogwarts)
+- Harry Potter Text image was taken from wikipedia (https://en.wikipedia.org/wiki/Harry_Potter)
+- Great Hall image was taken from google (https://www.bustle.com/articles/128432-dinner-in-the-great-hall-pictures-from-warner-bros-studios-will-give-you-all-the-potter)
+
 
 
 
