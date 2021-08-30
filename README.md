@@ -35,6 +35,15 @@ The aim is to test the knowledge of any harry potter fan but answering a series 
 
 ### Splash Screen
 
+- This area is what the user first sees quoting "Dear Player, We are pleased to inform you that you have been accepted at Hogwarts
+School of Witchcraft and Wizardry" which is what was contained in the letter to harry first book/film. 
+- Fade in screen was used to give the user an exciting experience.
+
+![Splash-Screen](https://github.com/CharlesB91/harry-potter-quiz/blob/master/assets/images/readme-img/splash-screen.PNG)
+
+
+
+
 ### Home Page
 
 - This area has background of the famous Hogwarts castle which can be seen on all screen sizes. 
