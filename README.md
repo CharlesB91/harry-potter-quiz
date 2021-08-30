@@ -152,6 +152,10 @@ The aim is to test the knowledge of any harry potter fan but answering a series 
 - End Page - (http://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fcharlesb91.github.io%2Fharry-potter-quiz%2Fgameover.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 - JSHINT
+  - No errors were returned when passing through the jshint for each JS script. 
+
+  
+
 
 
 
