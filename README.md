@@ -154,7 +154,18 @@ The aim is to test the knowledge of any harry potter fan but answering a series 
 - JSHINT
   - No errors were returned when passing through the jshint for each JS script. 
 
-  
+### Accessibility Testing
+
+- Googlelight house returned a score of 100 for each page.
+
+**index.html**
+![index.html-lighthouse](https://github.com/CharlesB91/harry-potter-quiz/blob/master/assets/images/readme-img/lighthouse-home.PNG)
+
+**game.html**
+![index.html-lighthouse](https://github.com/CharlesB91/harry-potter-quiz/blob/master/assets/images/readme-img/lighthouse-game.PNG)
+
+**gameover.html**
+![gameover.html-lighthouse](https://github.com/CharlesB91/harry-potter-quiz/blob/master/assets/images/readme-img/lighthouse-end.PNG)
 
 
 
