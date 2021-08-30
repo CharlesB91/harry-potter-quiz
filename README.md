@@ -2,6 +2,9 @@
 
 This Harry Potter Quiz is a fun and interactive quiz for all ages and for any occassion. This quiz is designed to test your wizzarding knowledge of the famous Harry Potter Films. Depending on how you well you score will depend on what house you are sorted into. So go head and find out where you belong in hogwarts. 
 
+The live link can be found here - https://charlesb91.github.io/harry-potter-quiz/
+
+
 ![Responsive Mockup](https://github.com/CharlesB91/harry-potter-quiz/blob/master/assets/images/readme-img/hp-screens.PNG)
 
 ## Aim
@@ -166,6 +169,35 @@ The aim is to test the knowledge of any harry potter fan but answering a series 
 
 **gameover.html**
 ![gameover.html-lighthouse](https://github.com/CharlesB91/harry-potter-quiz/blob/master/assets/images/readme-img/lighthouse-end.PNG)
+
+### User Experience Testing
+
+- Asked family members to review my website on various devices on how they found the site. This included how well they navigated if they understood the general idea and concepts. Did receive positive feedback however it was pointed out that the home and instructions button shoud be at top of page for easy navigation. Therefore afer this feedback i implemented a nav bar. 
+
+
+## Bugs
+
+### Resolved Bugs
+
+- GoogleLight House Error - Encoutered an error with google lighthouse stating the there was a error with contrasting colours and foreground. After extensive uncommenting code ie process of elimination it was discovered that the sliding intruction bar was causing this error. Tired to change this background color howveer was still receving this error. Instead decided to create a modal box for instruction tab. Issue now resolved. 
+- Release Button Issue - When clicking on an answer this would then lead you to the next question however this button would still have the highlighted colour effect. Decided in this case to remove the hover background colour on the answer buttons which resolved the issue. Researched stackoverflow & google but could not find a suitable solution. 
+- Backgroud image Issue - When viewing the quiz on different screen sizes there appeared to be alot of which space. Spoke to mentor regarding this and was suggested i could use 100vw. This still did not resolve the issues and after extensive googleing i fould the resolution on stackoverflow. (https://stackoverflow.com/questions/25319124/white-space-below-background-cover-responsive).
+- Quiz Timmer Issue. When the user was able to see a question and select an answer the quiz was quickly moving onto the other question before any feedback could be provided on the selected button ie red or green. Found a timer solution which was implemented into my js code. (https://stackoverflow.com/questions/17883692/how-to-set-time-delay-in-javascript).
+- Favicon 404 error. When loading quiz a favicon erro would appear even through no favicon icons were being used. Stackoverflow suggested to use this code in each head section which seemed to resolve the issue "<link rel="shortcut icon" href="#" />"
+
+
+### Un-Resolved Bugs
+
+- No unresolved bugs however as mentioned with the Release Button Issue the only solution i could find was to remove the hover button for each answer button. 
+
+## Deployment
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+  - In the GitHub repository, navigate to the Settings tab.
+  - From the source section drop-down menu, select the Master Branch.
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found here - https://charlesb91.github.io/harry-potter-quiz/
 
 
 
