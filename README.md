@@ -9,13 +9,14 @@ The live link can be found here - https://charlesb91.github.io/harry-potter-quiz
 
 ## Aim
 
-The aim is to test the knowledge of any harry potter fan but answering a series of questions related to the film & book. This quiz is based around all ages for any occasion i.e. pub quiz or family events. 
+The aim is to test the knowledge of any harry potter fan by answering questions with multiple choice answers related to the film & book. This quiz is based around all ages for any occasion i.e. pub quiz or family events. 
 
 ### Business Goals
 
-- To ultimately test a user’s knowledge on the harry potter films & books. 
+- To ultimately test a user’s knowledge on the harry potter films/books. 
 - To create a fun and interactive experience for the user whilst informing the user which question they are on and what their current score is.
 - User will be asked a series of 5 questions. Depending on the score will depend on what house they are placed into. 
+- Once completed the quiz the user will be informed which house in hogwarts they belong with the corresponding house badge. 
 
 ### Client Goals
 
@@ -35,9 +36,8 @@ The aim is to test the knowledge of any harry potter fan but answering a series 
 
 ### Splash Screen
 
-- This area is what the user first sees quoting "Dear Player, We are pleased to inform you that you have been accepted at Hogwarts
-School of Witchcraft and Wizardry" which is what was contained in the letter to harry first book/film. 
-- Fade in screen was used to give the user an exciting experience.
+- This area is what the user first sees quoting "Dear Player, We are pleased to inform you that you have been accepted at Hogwarts School of Witchcraft and Wizardry" which is what is contained in the letter for Harry to attend Hogwarts.
+- Fade in screen was used to give the user an exciting inital experiance of what is ahead. 
 
 ![Splash-Screen](https://github.com/CharlesB91/harry-potter-quiz/blob/master/assets/images/readme-img/splash-screen.PNG)
 
@@ -54,8 +54,8 @@ School of Witchcraft and Wizardry" which is what was contained in the letter to 
 **Harry Potter Text**
 
 - This highly recognisable text is the exact same font used in the book and in the films. 
-- The golden colour compliments the colour used in all the front covers of the books.
-- This originally was an image taken from google however with the use of adobe illustrator I was able to trace the image and change the colour to the chosen goldenrod. 
+- The goldenrod colour compliments the colour used in all the front covers of the books.
+- This originally was an image taken from google however with the use of adobe illustrator I was able to trace the image and change the colour to the chosen goldenrod for added effect.
 
 ![Harry-Potter-Logo-Text](https://github.com/CharlesB91/harry-potter-quiz/blob/master/assets/images/Harry-Potter-Logo-New.png)
 
@@ -64,8 +64,8 @@ School of Witchcraft and Wizardry" which is what was contained in the letter to 
 
 - For this area there are two highly distinctive buttons to start the game & also for instructions.
 - "i solemnly swear that i am up to no good" is a famous quote used in the film/books which is contained in the start button.
-- An instruction button is also included her which will open a modal window with info on how to play the game. 
-- Finally contrasting colours were chosen were chosen to make these buttons stand out. 
+- An instruction button is also included which will open a modal window with info on how to play the game. 
+- Finally contrasting colours were chosen were chosen to make these buttons stand out which match the Harry Potter text ontop.  
 
 ![Start&Instruction-Button](https://github.com/CharlesB91/harry-potter-quiz/blob/master/assets/images/readme-img/font-buttons.PNG)
 
@@ -81,6 +81,7 @@ School of Witchcraft and Wizardry" which is what was contained in the letter to 
 ### Quiz Screen
 
 - This area is the main quiz screen where user will answers a series of 5 questions to complete the quiz. 
+- The users is provided with 4 multiple choice answers.
 - The background again features the famous Hogwarts castle. 
 
 ![Quiz-Screen](https://github.com/CharlesB91/harry-potter-quiz/blob/master/assets/images/readme-img/quiz-screen.PNG)
@@ -88,7 +89,7 @@ School of Witchcraft and Wizardry" which is what was contained in the letter to 
 **Nav-Bar**
 
 - This area is only visible on the quiz screen & final page (Sorting Ceremony). 
-- This features a home screen & instruction tab which allows for easy navigation and help if the user is unsure how to play. 
+- This features a home screen & instruction tab which allows for easy navigation and help if the user is unsure how to play or wants to return to the home screen to re start the quiz.
 
 ![Nav-Bar](https://github.com/CharlesB91/harry-potter-quiz/blob/master/assets/images/readme-img/nav-bar.PNG)
 
@@ -104,8 +105,8 @@ School of Witchcraft and Wizardry" which is what was contained in the letter to 
 **Question Container & Answer Buttons**
 
 - This area which is powered highly with JavaScript is the main functionality of the quiz.
-- This features a questions place holder text which will display 5 random questions.
-- Additionally there is 4 answer buttons which contain 4 possible answers which are pre populated every time a new question is displayed. 
+- This features a questions place holder text which will display 5 random questions from the question pool.
+- Additionally there is 4 mulitple choice answer buttons which contain 4 possible answers which are pre populated every time a new question is displayed. 
 - Anytime a user selects an answer this will be highlighted as red or green to indicate if its correct or not. This will then be added to the scoreboard and a new question will appear until the user hits 5 questions max. 
 
 ![Question Placeholder & Answer Buttons](https://github.com/CharlesB91/harry-potter-quiz/blob/master/assets/images/readme-img/questions-answer-buttons.PNG)
@@ -113,12 +114,14 @@ School of Witchcraft and Wizardry" which is what was contained in the letter to 
 ### End Screen (Sorting Ceremony)
 
 - This area will display the users score and will display which house the user will be sorted into depending on score.
+- Additionally the corresponding house badge will appear depending on score.
 - This area background features the famous great hall in Hogwarts where the sorting ceremony would be held.
 - Additionally there is an accompanying nav bar with play again button if the user wishes to play again.
 - Score of 5 - Gryffindor
 - Score of 4 - Hufflepuff
 - Score of 3 - Ravenclaw
 - Score of 2 of below - Slytherin
+- 
 
 ![End Screen (Sorting Ceremony)](https://github.com/CharlesB91/harry-potter-quiz/blob/master/assets/images/readme-img/end-screen-house-sort.PNG)
 
@@ -140,6 +143,7 @@ School of Witchcraft and Wizardry" which is what was contained in the letter to 
 
 - Additional features left which would improve the sits capabilities would be to have functionality for the user to enter their username. 
 - Finally an area where the user could save their scores and have a scoreboard with highest scores for different users using a remote storage solution. 
+- Instead of a question counter there would be the golden snitch moving along the screen depnding on which question they are on. 
 
 ## Testing
 
@@ -181,14 +185,14 @@ School of Witchcraft and Wizardry" which is what was contained in the letter to 
 
 ### User Experience Testing
 
-- Asked family members to review my website on various devices on how they found the site. This included how well they navigated if they understood the general idea and concepts. Did receive positive feedback however it was pointed out that the home and instructions button should be at top of page for easy navigation. Therefore after this feedback i implemented a nav bar. 
+- Asked family members to review my quiz on various devices on how they found the site. This included how well they navigated if they understood the general idea and concept. Did receive positive feedback however it was pointed out that the home and instructions button should be at top of page for easy navigation. Therefore after this feedback i implemented a nav bar. 
 
 
 ## Bugs
 
 ### Resolved Bugs
 
-- GoogleLight House Error - Encountered an error with google lighthouse stating the there was a error with contrasting colours and foreground. After extensive uncommenting code i.e. process of elimination it was discovered that the sliding instruction bar was causing this error. Tired to change this background colour however was still receiving this error. Instead decided to create a modal box for instruction tab. Issue now resolved. 
+- GoogleLight House Error - Encountered an error with google lighthouse stating that there was a error with contrasting colours and foreground. After extensive uncommenting code i.e. process of elimination it was discovered that the sliding instruction bar was causing this error. Tired to change the background colour for this however was still receiving this error. However instead decided to create a modal box for instruction tab. Issue now resolved. 
 - Release Button Issue - When clicking on an answer this would then lead you to the next question however this button would still have the highlighted colour effect. Decided in this case to remove the hover background colour on the answer buttons which resolved the issue. Researched stack overflow & google but could not find a suitable solution. 
 - Background image Issue - When viewing the quiz on different screen sizes there appeared to be a lot of which space. Spoke to mentor regarding this and was suggested i could use 100vw. This still did not resolve the issues and after extensive googling I found the resolution on stack overflow. (https://stackoverflow.com/questions/25319124/white-space-below-background-cover-responsive).
 - Quiz Timmer Issue. When the user was able to see a question and select an answer the quiz was quickly moving onto the other question before any feedback could be provided on the selected button i.e. red or green. Found a timer solution which was implemented into my js code. (https://stackoverflow.com/questions/17883692/how-to-set-time-delay-in-javascript).
@@ -212,7 +216,7 @@ The live link can be found here - https://charlesb91.github.io/harry-potter-quiz
 
 - There has been various sources of credit used for this site.
 - James Q Quick YouTube tutorial provided excellent guidance on how to pre populate questions and answer buttons from question pool. (https://www.youtube.com/watch?v=zZdQGs62cR8).
-- Splash Screen idea was taken from you tube tutorial which give the quiz that extra piece of exciting experience for the user. (https://www.youtube.com/watch?v=MOlaldp1Fv4).
+- Splash Screen idea was taken from you tube tutorial which give the quiz that exciting experience for the user. (https://www.youtube.com/watch?v=MOlaldp1Fv4).
 - Modal instruction Screen code was borrowed from W3Schools. Styling was my own choice & text. (https://www.w3schools.com/howto/howto_css_modals.asp).
 
 ## Media
