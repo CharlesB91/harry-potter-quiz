@@ -286,7 +286,7 @@ h2 {
   background-color: rgba(0, 0, 0, 0.4);
 }
 
-/* Modal Content */
+
 .modal-content {
   text-transform: uppercase;
   color: black;
@@ -299,7 +299,7 @@ h2 {
   font-size: 120%;
 }
 
-/* The Close Button */
+
 .close {
   color: black;
   float: right;

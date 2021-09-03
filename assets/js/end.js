@@ -13,6 +13,7 @@ scoresOnDoors();
 // Sorting Function. Depending on
 // Score Player Will Be Sorted Into The House
 // According To Their Score
+// Corresoding house badge will display depending on score
 
 function scoresOnDoors() {
   if (isNaN(mostRecentScore)) {
