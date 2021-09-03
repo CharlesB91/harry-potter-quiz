@@ -299,6 +299,10 @@ h2 {
   font-size: 120%;
 }
 
+.modal-content li {
+  list-style-type: none; 
+}
+
 
 .close {
   color: black;
