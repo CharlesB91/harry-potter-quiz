@@ -16,7 +16,7 @@ The aim is to test the knowledge of any harry potter fan by answering a series o
 - To ultimately test a user’s knowledge on the harry potter films/books. 
 - To create a fun and interactive experience for the user whilst informing the user which question they are on and what their current score is.
 - User will be asked a series of 5 questions. Depending on the score will depend on what house they are placed into. 
-- Once completed the quiz the user will be informed which house in hogwarts they belong with the corresponding house badge. 
+- Once completed the quiz the user will be informed which house in Hogwarts they belong with the corresponding house badge. 
 
 ### Client Goals
 
@@ -38,7 +38,7 @@ The aim is to test the knowledge of any harry potter fan by answering a series o
 ### Splash Screen
 
 - This is what the user will first see when access the quiz. The message as follows is displayed "Dear Player, We are pleased to inform you that you have been accepted at Hogwarts School of Witchcraft and Wizardry" which is what is contained in the letter for Harry to attend Hogwarts.
-- Fade in screen was used to give the user an exciting inital experiance of what is ahead. 
+- Fade in screen was used to give the user an exciting initial experience of what is ahead. 
 
 ![Splash-Screen](https://github.com/CharlesB91/harry-potter-quiz/blob/master/assets/images/readme-img/splash-screen.PNG)
 
@@ -103,7 +103,7 @@ The aim is to test the knowledge of any harry potter fan by answering a series o
 
 - This area which is powered highly with JavaScript is the main functionality of the quiz.
 - This features a questions place holder text which will display 5 random questions from the question pool.
-- Additionally there is 4 mulitple choice answer buttons which contain 4 possible answers which are pre populated every time a new question is displayed. 
+- Additionally there is 4 multiple choice answer buttons which contain 4 possible answers which are pre populated every time a new question is displayed. 
 - Anytime a user selects an answer this will be highlighted as red or green to indicate if its correct or not. This will then be added to the scoreboard and a new question will appear until the user hits 5 questions max. 
 
 ![Question Placeholder & Answer Buttons](https://github.com/CharlesB91/harry-potter-quiz/blob/master/assets/images/readme-img/questions-answer-buttons.PNG)
@@ -127,7 +127,7 @@ The aim is to test the knowledge of any harry potter fan by answering a series o
 
 **Colour**
 
-- For this area i focused mainly on 2 colours
+- For this area I focused mainly on 2 colours
 - Goldenrod - This compliments the original colour of the Harry Potter text in the front cover of the books.
 - Black - This helps create a contrast between the goldenrod. 
 
@@ -140,7 +140,7 @@ The aim is to test the knowledge of any harry potter fan by answering a series o
 
 - Additional features left which would improve the sites capabilities would be to have functionality for the user to enter their username. 
 - Finally an area where the user could save their scores and have a scoreboard with highest scores for different users using a remote storage solution. 
-- Instead of a question counter there would be the golden snitch moving along the screen depnding on which question they are on. 
+- Instead of a question counter there would be the golden snitch moving along the screen depending on which question they are on. 
 
 ## Testing
 
@@ -171,7 +171,7 @@ The aim is to test the knowledge of any harry potter fan by answering a series o
 
 ### Accessibility Testing
 
-- Googlelight house returned a score of 100 for each page.
+- Google light house returned a score of 100 for each page.
 
 **index.html**
 ![index.html-lighthouse](https://github.com/CharlesB91/harry-potter-quiz/blob/master/assets/images/readme-img/lighthouse-home.PNG)
@@ -194,8 +194,8 @@ The aim is to test the knowledge of any harry potter fan by answering a series o
 
 ### Resolved Bugs
 
-- GoogleLight House Error - Encountered an error with google lighthouse. There appeared to be an error with contrasting colours and foreground. After extensive uncommenting code i.e. process of elimination it was discovered that the sliding instruction bar was causing this error. Tired to change the background colour for this however was still receiving this error. For a resolution decided to create a modal box for instruction tab. Issue now resolved. 
-- Release Button Issue - When a user clicked on an answer this would then lead you to the next question however this button would still have the highlighted colour effect of the hover effect on the next next question. Decided in this case to remove the hover background colour on the answer buttons which resolved the issue. Researched stack overflow & google but could not find a suitable solution. 
+- Google Light House Error - Encountered an error with google lighthouse. There appeared to be an error with contrasting colours and foreground. After extensive uncommenting code i.e. process of elimination it was discovered that the sliding instruction bar was causing this error. Tired to change the background colour for this however was still receiving this error. For a resolution decided to create a modal box for instruction tab. Issue now resolved. 
+- Release Button Issue - When a user clicked on an answer this would then lead you to the next question however this button would still have the highlighted colour effect of the hover effect on the next question. Decided in this case to remove the hover background colour on the answer buttons which resolved the issue. Researched stack overflow & google but could not find a suitable solution. 
 - Background image Issue - When viewing the quiz on different screen sizes there appeared to be a lot of which space. Spoke to mentor regarding this and was suggested i could use 100vw. This still did not resolve the issues and after extensive googling I found the resolution on stack overflow. (https://stackoverflow.com/questions/25319124/white-space-below-background-cover-responsive).
 - Quiz Timmer Issue. When the user was able to see a question and select an answer the quiz would quickly moving onto the other question before any feedback could be provided on the selected button i.e. red or green. Found a timer solution which was implemented into my js code. (https://stackoverflow.com/questions/17883692/how-to-set-time-delay-in-javascript).
 - Favicon 404 error. When loading quiz a favicon error would appear even through no favicon icons were being used. Stack overflow suggested to use this code in each head section which seemed to resolve the issue "<link rel="shortcut icon" href="#" />"
