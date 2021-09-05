@@ -192,8 +192,8 @@ h2 {
   border: goldenrod solid;
   background-color: black;
   width: 200px;
-  height: 90px;
   margin: 20px;
+  padding: 20px;
   text-transform: uppercase;
   text-decoration: none;
   border: solid goldenrod;
@@ -431,12 +431,7 @@ h2 {
   .modal-content {
     font-size: 100%;
   }
-
-  .btn,
-  .btn2 {
-    height: 50px;
-  }
-
+  
   .btn2 {
     font-size: 100%;
   }
