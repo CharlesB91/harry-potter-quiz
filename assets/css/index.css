@@ -293,7 +293,7 @@ h2 {
   margin: auto;
   padding: 20px;
   border: solid black;
-  width: 80%;
+  width: 50%;
   font-size: 120%;
 }
 
@@ -385,7 +385,7 @@ h2 {
   }
 
   #hp-logo {
-    width: 80%;
+    width: 90%;
   }
 }
 
