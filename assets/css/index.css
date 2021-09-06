@@ -431,12 +431,16 @@ h2 {
     font-size: 100%;
   }
 
+  .btn {
+    height: 60px;
+  }
+
   .btn2 {
     font-size: 100%;
   }
 
   .btn3 {
-    width: 250px;
+    width: 200px;
     height: 40px;
     font-size: 100%;
   }
