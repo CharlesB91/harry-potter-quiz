@@ -463,6 +463,7 @@ h2 {
     
   }
   #question-placeholder {
-    height: 25px;
+    font-size: 100%;
+    height: 20px;
   }
 }

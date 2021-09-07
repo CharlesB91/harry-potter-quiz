@@ -70,7 +70,7 @@ let quizquestions = [
     correct: 2,
   },
   {
-    question: "What Was Harry Potter's Mums Name",
+    question: "What Was Harry Potter's Mums Name?",
     choice1: "Lilly",
     choice2: "Margaret",
     choice3: "Karen",
