@@ -132,10 +132,8 @@ function start() {
 }
 
 // Display Questions Function
-// Random Question Chosen &
+// Random Question Chosen
 // Questions & Answer Populated in DOM
-// Any Question chosen is then taken out so
-// this is not asked again
 
 function displayQuestions() {
   if (questionCounter == 5) {

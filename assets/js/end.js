@@ -10,10 +10,9 @@ let slyth = document.getElementById("slytherin");
 
 scoresOnDoors();
 
-// Sorting Function. Depending on
-// Score Player Will Be Sorted Into The House
-// According To Their Score
-// Corresoding house badge will display depending on score
+// Sorting Function
+// Depending on Score Player Will Be Sorted Into The House
+// Corresponding house badge will display depending on score
 
 function scoresOnDoors() {
   if (isNaN(mostRecentScore)) {
