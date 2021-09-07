@@ -242,19 +242,19 @@ h2 {
   display: none;
 }
 
-#start-btn {
+/* #start-btn {
   text-align: center;
   padding: 20px;
   font-size: 150%;
   height: 120px;
   width: 400px;
-}
+} */
 
-#start-btn:hover {
+/* #start-btn:hover {
   border: goldenrod solid;
   color: goldenrod;
   background-color: black;
-}
+} */
 
 #instruct-tab {
   padding: 20px;
@@ -440,7 +440,7 @@ h2 {
     width: 200px;
     height: 40px;
     font-size: 100%;
-    padding: 25px;
+    /* padding: 25px; */
   }
 
   #score-board,
@@ -467,7 +467,6 @@ h2 {
 @media screen and (max-width: 350px) {
   .btn3 {
     height: 50px;
-    padding: 25px;
   }
   .modal-content {
     font-size: 90%;
