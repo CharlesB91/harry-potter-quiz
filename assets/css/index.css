@@ -391,11 +391,6 @@ h2 {
 }
 
 @media screen and (max-width: 600px) {
-  #start-btn {
-    width: 200px;
-    font-size: 100%;
-    padding: 0;
-  }
 
   .overlay-content {
     font-size: 100%;
