@@ -426,7 +426,6 @@ h2 {
     width: 200px;
     height: 40px;
     font-size: 100%;
-    /* padding: 25px; */
   }
 
   #score-board,
@@ -445,7 +444,7 @@ h2 {
   }
   #question-placeholder {
     font-size: 100%;
-    height: 20px;
+    height: 30px;
   }
 }
 
