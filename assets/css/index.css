@@ -466,9 +466,7 @@ h2 {
 
 @media screen and (max-width: 350px) {
   .btn3 {
-    width: 200px;
     height: 50px;
-    font-size: 100%;
     padding: 25px;
   }
   .modal-content {
