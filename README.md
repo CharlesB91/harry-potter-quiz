@@ -28,9 +28,9 @@ The aim is to test the knowledge of any harry potter fan by answering a series o
 - Initially sketched my ideas on to my note pad to try and visualise my idea. When I was happy with this I created a simulation using balsamiq for the wireframe. 
 - Below are two sketches of the home screen and quiz screen. 
 
-![Wireframe-Home-Page](https://github.com/CharlesB91/harry-potter-quiz/blob/master/assets/images/readme-img/Wireframe-front-screen.png)
+![Wireframe-Home-Page](https://github.com/CharlesB91/harry-potter-quiz/blob/master/assets/images/readme-img/wireframe-home.png)
 
-![Wireframe-Question-Page](https://github.com/CharlesB91/harry-potter-quiz/blob/master/assets/images/readme-img/Wireframe-question-screen.png)
+![Wireframe-Question-Page](https://github.com/CharlesB91/harry-potter-quiz/blob/master/assets/images/readme-img/wireframe-quiz.png)
 
 
 ## Features
