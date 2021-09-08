@@ -60,7 +60,7 @@ The aim is to test the knowledge of any harry potter fan by answering a series o
 ### Start Button & Instructions Button
 
 - For this area there are two highly distinctive buttons which are to start the game & also for instructions.
-- "i solemnly swear that i am up to no good" is a famous quote used in the film/books which is contained in the start button.
+- "I solemnly swear that i am up to no good" is a famous quote used in the film/books which is contained in the start button.
 - The instruction button is also included which will open a modal window with info on how to play the game. 
 - Finally contrasting colours were chosen to make these buttons stand out which match the Harry Potter text.  
 
@@ -195,15 +195,15 @@ The aim is to test the knowledge of any harry potter fan by answering a series o
 ### Resolved Bugs
 
 - Google Light House Error - Encountered an error with google lighthouse. There appeared to be an error with contrasting colours and foreground. After extensive uncommenting code i.e. process of elimination it was discovered that the sliding original instruction bar was causing this error. Tried to change the background colour to resolve this however was still receiving the same error. For a resolution decided to create a modal box for instruction tab. Issue now resolved. 
-- Release Button Issue - When a user clicked on an answer this would then lead you to the next question however this button would still have the highlighted colour effect of the hover on the next question. Decided in this case to remove the hover background colour on the answer buttons which resolved the issue. Researched stack overflow & google but could not find a suitable alternitive solution. 
-- Background image Issue - When viewing the quiz on different screen sizes there appeared to be a lot of white space at the bottom of the page. Spoke to mentor regarding this and was suggested i could use 100vh to try and resolve this. This howvever did not resolve the issues and after extensive googling I found the resolution on stack overflow. (https://stackoverflow.com/questions/25319124/white-space-below-background-cover-responsive).
+- Release Button Issue - When a user clicked on an answer this would then lead you to the next question however this button would still have the highlighted colour effect of the hover on the next question. Decided in this case to remove the hover background colour on the answer buttons which resolved the issue. Researched stack overflow & google but could not find a suitable alternative solution. 
+- Background image Issue - When viewing the quiz on different screen sizes there appeared to be a lot of white space at the bottom of the page. Spoke to mentor regarding this and was suggested i could use 100vh to try and resolve this. This however did not resolve the issues and after extensive googling I found the resolution on stack overflow. (https://stackoverflow.com/questions/25319124/white-space-below-background-cover-responsive).
 - Quiz Timmer Issue. When a question was displayed and the user would select an answer the quiz would quickly moving onto the other question before any feedback could be provided on the selected button i.e. red or green. Found a timer solution which was implemented into my js code. (https://stackoverflow.com/questions/17883692/how-to-set-time-delay-in-javascript).
 - Favicon 404 error. When loading quiz a favicon error would appear even though no favicon icons were being used. Stack overflow suggested to use this code in each head section which has resolved the issue. This is indicted at the head section of each HTML page. (https://stackoverflow.com/questions/39149846/why-am-i-seeing-a-404-not-found-error-failed-to-load-favicon-ico-when-not-usin/43042288)
 
 
 ### Un-Resolved Bugs
 
-- No unresolved bugs however as mentioned with the Release Button Issue. As mentioned above the only solution i could find was to remove the hover button effect for each answer button. 
+- No unresolved bugs however as mentioned with the Release Button Issue. As mentioned above the only solution I could find was to remove the hover button effect for each answer button. 
 - When loading quiz on chrome there appears to be a warning "Error with Permissions-Policy header: Unrecognized feature: 'interest-cohort'". Spoke to mentor regarding this and after some research this appears to be an chrome issue as this message is not displayed when tested on edge. This is only a warning also.
 
 ## Deployment
@@ -227,11 +227,3 @@ The live link can be found here - https://charlesb91.github.io/harry-potter-quiz
 - Hogwarts background image was taken from unsplash (https://unsplash.com/s/photos/hogwarts)
 - Harry Potter Text image was taken from Wikipedia (https://en.wikipedia.org/wiki/Harry_Potter)
 - Great Hall image was taken from google (https://www.bustle.com/articles/128432-dinner-in-the-great-hall-pictures-from-warner-bros-studios-will-give-you-all-the-potter)
-
-
-
-
-
-
-
-
