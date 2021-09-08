@@ -110,10 +110,10 @@ The aim is to test the knowledge of any harry potter fan by answering a series o
 
 ### End Screen (Sorting Ceremony)
 
-- This area will display the users score and will display which house the user will be sorted into depending on score.
+- This area will display the users score and will display which house the user will be sorted into depending on their score.
 - Additionally the corresponding house badge will appear depending on score.
-- This area background features the famous great hall in Hogwarts where the sorting ceremony would be held.
-- Additionally there is an accompanying nav bar with play again button if the user wishes to play again.
+- The background features the famous great hall in Hogwarts where the sorting ceremony would be held.
+- There is also an accompanying nav bar with play again button if the user wishes to play again.
 - Score of 5 - Gryffindor
 - Score of 4 - Hufflepuff
 - Score of 3 - Ravenclaw
@@ -156,7 +156,7 @@ The aim is to test the knowledge of any harry potter fan by answering a series o
 - Home Page - (https://validator.w3.org/nu/?doc=https%3A%2F%2Fcharlesb91.github.io%2Fharry-potter-quiz%2F)
 - Game Page - (https://validator.w3.org/nu/?doc=https%3A%2F%2Fcharlesb91.github.io%2Fharry-potter-quiz%2Fgame.html)
 - End Page - (https://validator.w3.org/nu/?doc=https%3A%2F%2Fcharlesb91.github.io%2Fharry-potter-quiz%2Fgameover.html)
-- The only warnings displayed for each page are due to empty headings as these are being manipulated by JavaScript
+- The only warnings displayed for each page are due to empty headings for seactions and areas that are being manipulated by JavaScript
 
 - CSS
   - No errors were returned when passing through the official [W3C validator].
@@ -194,10 +194,10 @@ The aim is to test the knowledge of any harry potter fan by answering a series o
 
 ### Resolved Bugs
 
-- Google Light House Error - Encountered an error with google lighthouse. There appeared to be an error with contrasting colours and foreground. After extensive uncommenting code i.e. process of elimination it was discovered that the sliding instruction bar was causing this error. Tired to change the background colour for this however was still receiving the same error. For a resolution decided to create a modal box for instruction tab. Issue now resolved. 
-- Release Button Issue - When a user clicked on an answer this would then lead you to the next question however this button would still have the highlighted colour effect of the hover effect on the next question. Decided in this case to remove the hover background colour on the answer buttons which resolved the issue. Researched stack overflow & google but could not find a suitable solution. 
-- Background image Issue - When viewing the quiz on different screen sizes there appeared to be a lot of which space. Spoke to mentor regarding this and was suggested i could use 100vw. This still did not resolve the issues and after extensive googling I found the resolution on stack overflow. (https://stackoverflow.com/questions/25319124/white-space-below-background-cover-responsive).
-- Quiz Timmer Issue. When the user was able to see a question and select an answer the quiz would quickly moving onto the other question before any feedback could be provided on the selected button i.e. red or green. Found a timer solution which was implemented into my js code. (https://stackoverflow.com/questions/17883692/how-to-set-time-delay-in-javascript).
+- Google Light House Error - Encountered an error with google lighthouse. There appeared to be an error with contrasting colours and foreground. After extensive uncommenting code i.e. process of elimination it was discovered that the sliding original instruction bar was causing this error. Tried to change the background colour to resolve this however was still receiving the same error. For a resolution decided to create a modal box for instruction tab. Issue now resolved. 
+- Release Button Issue - When a user clicked on an answer this would then lead you to the next question however this button would still have the highlighted colour effect of the hover on the next question. Decided in this case to remove the hover background colour on the answer buttons which resolved the issue. Researched stack overflow & google but could not find a suitable alternitive solution. 
+- Background image Issue - When viewing the quiz on different screen sizes there appeared to be a lot of white space at the bottom of the page. Spoke to mentor regarding this and was suggested i could use 100vh to try and resolve this. This howvever did not resolve the issues and after extensive googling I found the resolution on stack overflow. (https://stackoverflow.com/questions/25319124/white-space-below-background-cover-responsive).
+- Quiz Timmer Issue. When a question was displayed and the user would select an answer the quiz would quickly moving onto the other question before any feedback could be provided on the selected button i.e. red or green. Found a timer solution which was implemented into my js code. (https://stackoverflow.com/questions/17883692/how-to-set-time-delay-in-javascript).
 - Favicon 404 error. When loading quiz a favicon error would appear even though no favicon icons were being used. Stack overflow suggested to use this code in each head section which has resolved the issue. This is indicted at the head section of each HTML page.
 
 
