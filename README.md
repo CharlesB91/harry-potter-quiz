@@ -218,7 +218,7 @@ The live link can be found here - https://charlesb91.github.io/harry-potter-quiz
 ## Credits
 
 - There has been various sources of credit used for this site.
-- James Q Quick YouTube tutorial provided excellent guidance on how to pre populate questions and answer buttons from question pool. This additionally included how to check if users answer is correct or not. (https://www.youtube.com/watch?v=zZdQGs62cR8).
+- James Q Quick YouTube tutorial provided excellent guidance on how to pre populate questions and answer buttons from question pool. This also additionally included how to check if a users answer is correct or not. (https://www.youtube.com/watch?v=zZdQGs62cR8).
 - Splash Screen idea was taken from you tube tutorial which give the quiz that exciting experience for the user. (https://www.youtube.com/watch?v=MOlaldp1Fv4).
 - Modal instruction Screen code was borrowed from W3Schools. Styling was my own choice & text. (https://www.w3schools.com/howto/howto_css_modals.asp).
 
