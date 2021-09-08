@@ -9,7 +9,7 @@ The live link can be found here - https://charlesb91.github.io/harry-potter-quiz
 
 ## Aim
 
-The aim is to test the knowledge of any harry potter fan by answering a series of questions with multiple choice answers related to the film & book. This quiz is based around all ages and for any occasion i.e. pub quiz or family events. 
+The aim is to test the knowledge of any harry potter fan by answering a series of questions with multiple choice answers related to the films & books. This quiz is based around all ages and for any occasion i.e. pub quiz or family events. 
 
 ### Business Goals
 
@@ -37,14 +37,14 @@ The aim is to test the knowledge of any harry potter fan by answering a series o
 
 ### Splash Screen
 
-- This screen is what is displayed to the user when they first enter the quiz. The message is displayed as follows "Dear Player, We are pleased to inform you that you have been accepted at Hogwarts School of Witchcraft and Wizardry".
-- Fade in screen has been used to give the user an exciting initial experience of what is ahead. 
+- This screen is what is displayed to the user when they first enter the quiz. The message is displayed as follows "Dear Player, We are pleased to inform you that you have been accepted at Hogwarts School of Witchcraft and Wizardry". This is what was contained in the letter harry received to attend Hogwarts.
+- The Fade in screen effect has been used to give the user an exciting initial experience of what is ahead. 
 
 ![Splash-Screen](https://github.com/CharlesB91/harry-potter-quiz/blob/master/assets/images/readme-img/splash-screen.PNG)
 
 ### Home Page
 
-- This area has the background of the famous Hogwarts castle which can be seen on all screen sizes. 
+- This area a background image of the famous Hogwarts castle which can be seen on all screen sizes. 
 
 ![Home-Screen-Hogwarts](https://github.com/CharlesB91/harry-potter-quiz/blob/master/assets/images/readme-img/home-screen.PNG)
 
@@ -60,8 +60,8 @@ The aim is to test the knowledge of any harry potter fan by answering a series o
 ### Start Button & Instructions Button
 
 - For this area there are two highly distinctive buttons which are to start the game & also for instructions.
-- "I solemnly swear that i am up to no good" is a famous quote used in the film/books which is contained in the start button.
-- The instruction button is also included which will open a modal window with info on how to play the game. 
+- "I solemnly swear that I am up to no good" is a famous quote used in the film/books which is contained in the start button.
+- The instruction button also included opens a modal window with info on how to play the game. 
 - Finally contrasting colours were chosen to make these buttons stand out which match the Harry Potter text.  
 
 ![Start&Instruction-Button](https://github.com/CharlesB91/harry-potter-quiz/blob/master/assets/images/readme-img/font-buttons.PNG)
@@ -156,7 +156,7 @@ The aim is to test the knowledge of any harry potter fan by answering a series o
 - Home Page - (https://validator.w3.org/nu/?doc=https%3A%2F%2Fcharlesb91.github.io%2Fharry-potter-quiz%2F)
 - Game Page - (https://validator.w3.org/nu/?doc=https%3A%2F%2Fcharlesb91.github.io%2Fharry-potter-quiz%2Fgame.html)
 - End Page - (https://validator.w3.org/nu/?doc=https%3A%2F%2Fcharlesb91.github.io%2Fharry-potter-quiz%2Fgameover.html)
-- The only warnings displayed for each page are due to empty headings for seactions and areas that are being manipulated by JavaScript
+- The only warnings displayed for each page are due to empty headings for sections and areas that are being manipulated by JavaScript.
 
 - CSS
   - No errors were returned when passing through the official [W3C validator].
@@ -188,23 +188,23 @@ The aim is to test the knowledge of any harry potter fan by answering a series o
 
 ### Browser Testing
 
-- This site has been testing through various popular browsers for compatibility. These include, Chrome, Firefox, Edge, Safari
+- This site has been testing through various popular browsers for compatibility. These include, Chrome, Firefox, Edge, Safari.
 
 ## Bugs
 
 ### Resolved Bugs
 
-- Google Light House Error - Encountered an error with google lighthouse. There appeared to be an error with contrasting colours and foreground. After extensive uncommenting code i.e. process of elimination it was discovered that the sliding original instruction bar was causing this error. Tried to change the background colour to resolve this however was still receiving the same error. For a resolution decided to create a modal box for instruction tab. Issue now resolved. 
+- Google Light House Error - Google Light House was indicating there was an error with contrasting colours and foreground. After extensive uncommenting code i.e. process of elimination it was discovered that the original sliding instruction bar was causing this error. Tried to change the background colour to resolve this however was still receiving the same error. For a resolution decided to create a modal box for instruction tab. Issue now resolved. 
 - Release Button Issue - When a user clicked on an answer this would then lead you to the next question however this button would still have the highlighted colour effect of the hover on the next question. Decided in this case to remove the hover background colour on the answer buttons which resolved the issue. Researched stack overflow & google but could not find a suitable alternative solution. 
 - Background image Issue - When viewing the quiz on different screen sizes there appeared to be a lot of white space at the bottom of the page. Spoke to mentor regarding this and was suggested i could use 100vh to try and resolve this. This however did not resolve the issues and after extensive googling I found the resolution on stack overflow. (https://stackoverflow.com/questions/25319124/white-space-below-background-cover-responsive).
-- Quiz Timmer Issue. When a question was displayed and the user would select an answer the quiz would quickly moving onto the other question before any feedback could be provided on the selected button i.e. red or green. Found a timer solution which was implemented into my js code. (https://stackoverflow.com/questions/17883692/how-to-set-time-delay-in-javascript).
-- Favicon 404 error. When loading quiz a favicon error would appear even though no favicon icons were being used. Stack overflow suggested to use this code in each head section which has resolved the issue. This is indicted at the head section of each HTML page. (https://stackoverflow.com/questions/39149846/why-am-i-seeing-a-404-not-found-error-failed-to-load-favicon-ico-when-not-usin/43042288)
+- Quiz Timmer Issue - When a question was displayed and the user would select an answer the quiz would quickly moving onto the next question before any feedback could be provided on the selected button i.e. red or green. Found a timer solution on stack overflow which was implemented into my js code. (https://stackoverflow.com/questions/17883692/how-to-set-time-delay-in-javascript).
+- Favicon 404 error - When loading quiz a favicon error would appear in the console even though no favicon icons were being used. Stack overflow suggested to use this code in each head section which has resolved the issue. This is indicted at the head section of each HTML page. (https://stackoverflow.com/questions/39149846/why-am-i-seeing-a-404-not-found-error-failed-to-load-favicon-ico-when-not-usin/43042288)
 
 
 ### Un-Resolved Bugs
 
-- No unresolved bugs however as mentioned with the Release Button Issue. As mentioned above the only solution I could find was to remove the hover button effect for each answer button. 
-- When loading quiz on chrome there appears to be a warning "Error with Permissions-Policy header: Unrecognized feature: 'interest-cohort'". Spoke to mentor regarding this and after some research this appears to be an chrome issue as this message is not displayed when tested on edge. This is only a warning also.
+- No unresolved bugs however as mentioned with the Release Button Issue above the only solution I could find was to remove the hover button effect for each answer button. 
+- When loading quiz on chrome there appears to be a warning "Error with Permissions-Policy header: Unrecognized feature: 'interest-cohort'". Spoke to mentor regarding this and after some research this appears to be a chrome privacy issue as this message is not displayed when tested on edge. This is only a warning also.
 
 ## Deployment
 
