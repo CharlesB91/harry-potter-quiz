@@ -174,7 +174,7 @@ answers.forEach((answer) => {
         selectedChoice.classList.remove("correct");
         selectedChoice.classList.remove("incorrect");
         displayQuestions();
-      }, 1000);
+      }, 700);
     }
   });
 });
