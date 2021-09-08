@@ -54,7 +54,7 @@ The aim is to test the knowledge of any harry potter fan by answering a series o
 - The goldenrod colour compliments the colour used in all the front covers of the books.
 - This image was originally taken from google however with the use of Adobe Illustrator I was able to trace the image and change the colour to the chosen goldenrod for added effect.
 
-![Harry-Potter-Logo-Text](https://github.com/CharlesB91/harry-potter-quiz/blob/master/assets/images/Harry-Potter-Logo-New.png)
+![Harry-Potter-Logo-Text](https://github.com/CharlesB91/harry-potter-quiz/blob/master/assets/images/readme-img/harry-potter-logo.png)
 
 
 ### Start Button & Instructions Button
