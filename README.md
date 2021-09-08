@@ -1,6 +1,6 @@
 # Harry Potter Quiz
 
-This Harry Potter Quiz is a fun and interactive quiz for all ages and for any occasion. This quiz is designed to test your wizarding knowledge of the famous Harry Potter Book/Films. Depending on how you well you score will depend on what house you are sorted into. So go head and find out where you belong in Hogwarts. 
+This Harry Potter Quiz is a fun and interactive quiz for all ages and for any occasion. This quiz is designed to test your wizarding knowledge of the famous Harry Potter Book/Films. Depending on how you score will depend on what house you are sorted into. So go head and find out where you belong in Hogwarts. 
 
 The live link can be found here - https://charlesb91.github.io/harry-potter-quiz/
 
@@ -9,13 +9,13 @@ The live link can be found here - https://charlesb91.github.io/harry-potter-quiz
 
 ## Aim
 
-The aim is to test the knowledge of any harry potter fan by answering a series of questions with multiple choice answers related to the film & book. This quiz is based around all ages for any occasion i.e. pub quiz or family events. 
+The aim is to test the knowledge of any harry potter fan by answering a series of questions with multiple choice answers related to the film & book. This quiz is based around all ages and for any occasion i.e. pub quiz or family events. 
 
 ### Business Goals
 
 - To ultimately test a user’s knowledge on the harry potter films/books. 
 - To create a fun and interactive experience for the user whilst informing the user which question they are on and what their current score is.
-- User will be asked a series of 5 questions. Depending on the score will depend on what house they are placed into. 
+- User will be asked a series of 5 questions. Depending on their score will depend on what house they are placed into. 
 - Once completed the quiz the user will be informed which house in Hogwarts they belong with the corresponding house badge. 
 
 ### Client Goals
@@ -37,8 +37,8 @@ The aim is to test the knowledge of any harry potter fan by answering a series o
 
 ### Splash Screen
 
-- This is what is displayed to the user when they first enter the quiz. The message as follows is displayed "Dear Player, We are pleased to inform you that you have been accepted at Hogwarts School of Witchcraft and Wizardry" which is what is contained in the letter for Harry to attend Hogwarts.
-- Fade in screen was used to give the user an exciting initial experience of what is ahead. 
+- This screen is what is displayed to the user when they first enter the quiz. The message is displayed as follows "Dear Player, We are pleased to inform you that you have been accepted at Hogwarts School of Witchcraft and Wizardry".
+- Fade in screen has been used to give the user an exciting initial experience of what is ahead. 
 
 ![Splash-Screen](https://github.com/CharlesB91/harry-potter-quiz/blob/master/assets/images/readme-img/splash-screen.PNG)
 
@@ -52,7 +52,7 @@ The aim is to test the knowledge of any harry potter fan by answering a series o
 
 - This highly recognisable text is the exact same font used in the front cover of the books and opening scene of the films. 
 - The goldenrod colour compliments the colour used in all the front covers of the books.
-- This originally was an image taken from google however with the use of adobe illustrator I was able to trace the image and change the colour to the chosen goldenrod for added effect.
+- This image was originally taken from google however with the use of Adobe Illustrator I was able to trace the image and change the colour to the chosen goldenrod for added effect.
 
 ![Harry-Potter-Logo-Text](https://github.com/CharlesB91/harry-potter-quiz/blob/master/assets/images/Harry-Potter-Logo-New.png)
 
@@ -62,7 +62,7 @@ The aim is to test the knowledge of any harry potter fan by answering a series o
 - For this area there are two highly distinctive buttons which are to start the game & also for instructions.
 - "i solemnly swear that i am up to no good" is a famous quote used in the film/books which is contained in the start button.
 - The instruction button is also included which will open a modal window with info on how to play the game. 
-- Finally contrasting colours were chosen were chosen to make these buttons stand out which match the Harry Potter text.  
+- Finally contrasting colours were chosen to make these buttons stand out which match the Harry Potter text.  
 
 ![Start&Instruction-Button](https://github.com/CharlesB91/harry-potter-quiz/blob/master/assets/images/readme-img/font-buttons.PNG)
 
@@ -93,7 +93,7 @@ The aim is to test the knowledge of any harry potter fan by answering a series o
 ### Score-Board & Question Counter
 
 - This area shows 2 high contrast boxes which indicate to the user their score and which question they are on. 
-- The score counter contains a correct and incorrect counter so the user can keep a track on where they are.
+- The score counter contains a correct and incorrect counter so the user can keep a track of their score.
 - Additionally this will also inform the user how many questions they are on before they hit the final 5th question. 
 
 ![Score-Board-Question-Counter](https://github.com/CharlesB91/harry-potter-quiz/blob/master/assets/images/readme-img/score-board-question-counter.PNG)
@@ -102,7 +102,7 @@ The aim is to test the knowledge of any harry potter fan by answering a series o
 ### Question Container & Answer Buttons
 
 - This area which is powered highly with JavaScript is the main functionality of the quiz.
-- This features a questions place holder text which will display 5 random questions from the question pool.
+- This features a questions placeholder area which will display 5 random questions from the question pool.
 - Additionally there is 4 multiple choice answer buttons which contain possible answers which are pre populated every time a new question is displayed. 
 - Anytime a user selects an answer this will be highlighted as red or green to indicate if its correct or not. This will then be added to the scoreboard and a new question will appear until the user hits 5 questions max. 
 
