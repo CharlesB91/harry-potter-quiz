@@ -44,7 +44,7 @@ The aim is to test the knowledge of any harry potter fan by answering a series o
 
 ### Home Page
 
-- This area a background image of the famous Hogwarts castle which can be seen on all screen sizes. 
+- This area features a background image of the famous Hogwarts castle which can be seen on all screen sizes. 
 
 ![Home-Screen-Hogwarts](https://github.com/CharlesB91/harry-potter-quiz/blob/master/assets/images/readme-img/home-screen.PNG)
 
